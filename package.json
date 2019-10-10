@@ -1,0 +1,20 @@
+{
+  "name": "static-pug-site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.7.0",
+    "fs-extra": "^8.1.0",
+    "pug": "^2.0.4"
+  },
+  "devDependencies": {
+    "eslint": "^6.5.1",
+    "prettier": "^1.18.2"
+  }
+}

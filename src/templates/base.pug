@@ -1,0 +1,11 @@
+block variables
+html
+  head
+    title= page.title
+  body
+    nav
+      ul
+        each p in site.pages.filter(p => p.type === "page")
+          li
+            a(href=p.uri)= p.title
+    block content
