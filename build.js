@@ -3,9 +3,17 @@ const path = require("path");
 const fs = require("fs-extra");
 const Promise = require("bluebird");
 const sassRender = Promise.promisify(require("node-sass").render);
-const config = require("./config");
+const args = require("yargs").options({
+  config: {
+    type: "string",
+    description: "Path to the config file",
+    default: "config.js"
+  }
+}).argv;
+const config = require(path.resolve(__dirname, args.config));
 const site = require(config.paths.site);
 
+const srcDir = config.paths.src;
 const templateDir = config.paths.templates;
 const distDir = config.paths.dist;
 const indexFileName = "index";
@@ -25,6 +33,19 @@ async function getTemplate(templateName) {
   return templateCacheMap.get(templateName);
 }
 
+async function tryCatch(name, fn) {
+  try {
+    await fn();
+    console.log(name);
+  } catch (error) {
+    console.error(`${name} Failed`, error.stack);
+  }
+}
+
+function label(name, width = 5) {
+  return `${config.name || ""} | ${name.padEnd(width)}`;
+}
+
 function getOutputPathsForPage(uri) {
   const destPath = path.resolve(`${distDir}/${uri}`);
   const { dir, name } = path.parse(destPath);
@@ -42,23 +63,15 @@ function scrapeContentForAssets(content) {
 
 async function copyAssets() {
   const assets = Array.from(assetCacheSet);
-  const result = { nCopied: 0, nErrors: 0 };
-  await Promise.map(assets, async assetSrc => {
-    try {
-      const srcFilePath = path.resolve(__dirname, `src/${assetSrc}`);
+  await Promise.map(assets, async assetSrc =>
+    tryCatch(`${label("asset")} | ${assetSrc}`, async () => {
+      const srcFilePath = path.resolve(`${srcDir}/${assetSrc}`);
       const destFilePath = path.resolve(`${distDir}/${assetSrc}`);
       const { dir } = path.parse(destFilePath);
       await fs.ensureDir(dir);
       await fs.copyFile(srcFilePath, destFilePath);
-      result.nCopied += 1;
-    } catch (error) {
-      result.nErrors += 1;
-    }
-  });
-  console.log(`Copied ${result.nCopied} asset(s)`);
-  if (result.nErrors) {
-    console.error(`Failed to copy ${result.nErrors} asset(s)`);
-  }
+    })
+  );
 }
 
 async function buildStyles(inputPath, outputPath) {
@@ -76,8 +89,8 @@ async function buildStyles(inputPath, outputPath) {
 async function build() {
   await Promise.map(
     site.pages,
-    async page => {
-      try {
+    async page =>
+      tryCatch(`${label("page")} | ${page.uri}`, async () => {
         const template = await getTemplate(page.template);
         const { outputFilePath, outputFileDir } = getOutputPathsForPage(
           page.uri
@@ -86,27 +99,19 @@ async function build() {
         scrapeContentForAssets(html);
         await fs.ensureDir(outputFileDir);
         await fs.writeFile(outputFilePath, html);
-        console.log(`{ ${page.uri} } OK`);
-      } catch (error) {
-        console.error(`{ ${page.uri} } Failed.`, error.stack);
-      }
-    },
+      }),
     { concurrency: config.buildConcurrency }
   );
   await Promise.map(
     config.styles,
-    async stylePath => {
-      try {
+    async stylePath =>
+      tryCatch(`${label("style")} | ${stylePath}`, async () => {
         const { name } = path.parse(stylePath);
         await buildStyles(
           stylePath,
           path.resolve(config.paths.distStyles, `${name}.css`)
         );
-        console.log(`{ ${stylePath} } OK`);
-      } catch (error) {
-        console.error(`{ ${stylePath} } Failed.`, error.stack);
-      }
-    },
+      }),
     { concurrency: config.buildConcurrency }
   );
   await copyAssets();
