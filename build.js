@@ -2,6 +2,7 @@ const pug = require("pug");
 const path = require("path");
 const fs = require("fs-extra");
 const Promise = require("bluebird");
+const sassRender = Promise.promisify(require("node-sass").render);
 const config = require("./config");
 const site = require(config.paths.site);
 
@@ -34,11 +35,9 @@ function getOutputPathsForPage(uri) {
   };
 }
 
-function scrapeHTMLForAssets(html) {
-  const assets = html.match(assetRegex);
-  if (assets) {
-    assets.forEach(src => assetCacheSet.add(src));
-  }
+function scrapeContentForAssets(content) {
+  const assets = content.match(assetRegex) || [];
+  assets.forEach(src => assetCacheSet.add(src));
 }
 
 async function copyAssets() {
@@ -62,6 +61,18 @@ async function copyAssets() {
   }
 }
 
+async function buildStyles(inputPath, outputPath) {
+  const result = await sassRender({
+    file: path.resolve(inputPath),
+    outputStyle: "compressed"
+  });
+  const css = result.css.toString();
+  const { dir } = path.parse(outputPath);
+  await fs.ensureDir(dir);
+  await fs.writeFile(outputPath, css);
+  scrapeContentForAssets(css);
+}
+
 async function build() {
   await Promise.map(
     site.pages,
@@ -72,7 +83,7 @@ async function build() {
           page.uri
         );
         const html = template({ page, site });
-        scrapeHTMLForAssets(html);
+        scrapeContentForAssets(html);
         await fs.ensureDir(outputFileDir);
         await fs.writeFile(outputFilePath, html);
         console.log(`{ ${page.uri} } OK`);
@@ -80,7 +91,23 @@ async function build() {
         console.error(`{ ${page.uri} } Failed.`, error.stack);
       }
     },
-    { concurrency: config.pageBuildConcurrency }
+    { concurrency: config.buildConcurrency }
+  );
+  await Promise.map(
+    config.styles,
+    async stylePath => {
+      try {
+        const { name } = path.parse(stylePath);
+        await buildStyles(
+          stylePath,
+          path.resolve(config.paths.distStyles, `${name}.css`)
+        );
+        console.log(`{ ${stylePath} } OK`);
+      } catch (error) {
+        console.error(`{ ${stylePath} } Failed.`, error.stack);
+      }
+    },
+    { concurrency: config.buildConcurrency }
   );
   await copyAssets();
 }
