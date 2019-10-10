@@ -1,12 +1,12 @@
 {
   "name": "static-pug-site",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A static website generator using pug templates and a data file",
+  "main": "build.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "ganeshnrao@me.com",
   "license": "ISC",
   "dependencies": {
     "bluebird": "^3.7.0",
