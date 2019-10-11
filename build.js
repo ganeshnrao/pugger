@@ -18,7 +18,7 @@ const templateDir = config.paths.templates;
 const distDir = config.paths.dist;
 const indexFileName = "index";
 const templateCacheMap = new Map();
-const assetRegex = /\/assets\/[a-z0-9-_.]+/gim;
+const assetRegex = config.assetRegex || /\/assets\/[a-z0-9-_.]+/gim;
 const assetCacheSet = new Set();
 
 async function getTemplate(templateName) {
@@ -33,17 +33,36 @@ async function getTemplate(templateName) {
   return templateCacheMap.get(templateName);
 }
 
-async function tryCatch(name, fn) {
-  try {
-    await fn();
-    console.log(name);
-  } catch (error) {
-    console.error(`${name} Failed`, error.stack);
-  }
-}
-
-function label(name, width = 5) {
-  return `${config.name || ""} | ${name.padEnd(width)}`;
+async function processTasks({
+  name = "",
+  items = [],
+  showAllErrors = false,
+  processor = async () => {}
+}) {
+  let nSuccess = 0;
+  let nErrors = 0;
+  await Promise.map(
+    items,
+    item =>
+      processor(item)
+        .then(() => {
+          nSuccess += 1;
+        })
+        .catch(error => {
+          nErrors += 1;
+          if (showAllErrors) {
+            console.error(error.stack);
+          }
+        }),
+    { concurrency: config.buildConcurrency || 10 }
+  );
+  console.log(
+    [
+      `Task ${name.padStart(16)}`,
+      `Success ${String(nSuccess).padStart(4)}`,
+      `Errors ${String(nErrors).padStart(4)}`
+    ].join(" | ")
+  );
 }
 
 function getOutputPathsForPage(uri) {
@@ -61,60 +80,48 @@ function scrapeContentForAssets(content) {
   assets.forEach(src => assetCacheSet.add(src));
 }
 
-async function copyAssets() {
-  const assets = Array.from(assetCacheSet);
-  await Promise.map(assets, async assetSrc =>
-    tryCatch(`${label("asset")} | ${assetSrc}`, async () => {
+async function build() {
+  await processTasks({
+    name: "Compile pages",
+    items: site.pages,
+    async processor(page) {
+      const template = await getTemplate(page.template);
+      const { outputFilePath, outputFileDir } = getOutputPathsForPage(page.uri);
+      const html = template({ page, site });
+      scrapeContentForAssets(html);
+      await fs.ensureDir(outputFileDir);
+      await fs.writeFile(outputFilePath, html);
+    }
+  });
+  await processTasks({
+    name: "Compile styles",
+    items: config.styles,
+    async processor(stylePath) {
+      const { name } = path.parse(stylePath);
+      const inputPath = stylePath;
+      const outputPath = path.resolve(config.paths.distStyles, `${name}.css`);
+      const result = await sassRender({
+        file: path.resolve(inputPath),
+        outputStyle: "compressed"
+      });
+      const css = result.css.toString();
+      const { dir } = path.parse(outputPath);
+      await fs.ensureDir(dir);
+      await fs.writeFile(outputPath, css);
+      scrapeContentForAssets(css);
+    }
+  });
+  await processTasks({
+    name: "Copy assets",
+    items: Array.from(assetCacheSet),
+    async processor(assetSrc) {
       const srcFilePath = path.resolve(`${srcDir}/${assetSrc}`);
       const destFilePath = path.resolve(`${distDir}/${assetSrc}`);
       const { dir } = path.parse(destFilePath);
       await fs.ensureDir(dir);
       await fs.copyFile(srcFilePath, destFilePath);
-    })
-  );
-}
-
-async function buildStyles(inputPath, outputPath) {
-  const result = await sassRender({
-    file: path.resolve(inputPath),
-    outputStyle: "compressed"
+    }
   });
-  const css = result.css.toString();
-  const { dir } = path.parse(outputPath);
-  await fs.ensureDir(dir);
-  await fs.writeFile(outputPath, css);
-  scrapeContentForAssets(css);
-}
-
-async function build() {
-  await Promise.map(
-    site.pages,
-    async page =>
-      tryCatch(`${label("page")} | ${page.uri}`, async () => {
-        const template = await getTemplate(page.template);
-        const { outputFilePath, outputFileDir } = getOutputPathsForPage(
-          page.uri
-        );
-        const html = template({ page, site });
-        scrapeContentForAssets(html);
-        await fs.ensureDir(outputFileDir);
-        await fs.writeFile(outputFilePath, html);
-      }),
-    { concurrency: config.buildConcurrency }
-  );
-  await Promise.map(
-    config.styles,
-    async stylePath =>
-      tryCatch(`${label("style")} | ${stylePath}`, async () => {
-        const { name } = path.parse(stylePath);
-        await buildStyles(
-          stylePath,
-          path.resolve(config.paths.distStyles, `${name}.css`)
-        );
-      }),
-    { concurrency: config.buildConcurrency }
-  );
-  await copyAssets();
 }
 
 build().catch(error => {
