@@ -1,0 +1,3466 @@
+{
+  "meta": {
+    "title": "&he Studio",
+    "caption": "A showcase work produced collaboratively with Weiling He.",
+    "footer": "&copy; Copyright Weiling He, 2016.",
+    "phone": "(713) 321-9062",
+    "email": "weiling.he@gmail.com",
+    "address": "Langford A 414, 3137 TAMU, College Station, TX 77843-3137",
+    "subtitle": "賀瑋玲"
+  },
+  "articles": [
+    {
+      "uri": "/",
+      "schema": "home",
+      "title": "Hello",
+      "caption": "",
+      "template": "home.pug",
+      "body": "",
+      "images": [
+        {
+          "src": "media/plastic-poetry-17.jpg",
+          "filetype": "jpg",
+          "title": "Plastic Poetry",
+          "caption": "image credit: Ganesh Rao",
+          "wide": false,
+          "date": "2013"
+        },
+        {
+          "src": "media/texas-horizon-03.jpg",
+          "filetype": "jpg",
+          "wide": false
+        },
+        {
+          "src": "media/the-cut-09.jpg",
+          "filetype": "jpg",
+          "wide": false
+        },
+        {
+          "src": "media/cloud-igloo-05.jpg",
+          "filetype": "jpg",
+          "wide": false
+        },
+        {
+          "src": "media/plastic-poetry-19.jpg",
+          "filetype": "jpg",
+          "wide": false
+        }
+      ],
+      "published": true,
+      "parent": "news"
+    },
+    {
+      "uri": "work",
+      "schema": "article",
+      "title": "Work",
+      "template": "work.pug",
+      "caption": "",
+      "body": "",
+      "images": [],
+      "published": true,
+      "filterBy": "project",
+      "parent": "project"
+    },
+    {
+      "uri": "thoughts",
+      "schema": "article",
+      "template": "thoughts.pug",
+      "title": "Thoughts",
+      "caption": "",
+      "body": "",
+      "images": [
+        {
+          "caption": "The 32nd National Conference on the Beginning Design Student <br> Cal Polytechnic University, Sam Luis Obispo, California <br>\nMeg Jackson, Weiling He",
+          "src": "media/2016_scaletransformation_final_small.pdf",
+          "filetype": "pdf",
+          "title": "1:1 Scale Transformation",
+          "date": "2016"
+        },
+        {
+          "caption": "The 31st National Conference on the Beginning Design Student <br> The University of Houston, Houston, Texas",
+          "src": "media/2015_he_materialities_scale_format_small.pdf",
+          "filetype": "pdf",
+          "title": "Materiality and Scale: Enclosure, Fashion Theater, and Para-sites",
+          "date": "2015"
+        },
+        {
+          "caption": "AIA Forward: Process <br> The Architecture and Design Journal of the National Associates Committee, AIA, vol. 112",
+          "src": "media/2012_aiab095310_correct.pdf",
+          "filetype": "pdf",
+          "title": "Design Translated?",
+          "date": "2012"
+        },
+        {
+          "src": "media/2010-making-connections.pdf",
+          "filetype": "pdf",
+          "title": "A 'Fashion' Design Project: Wearable and Moveable Architecture",
+          "date": "2010",
+          "pdf": true,
+          "wide": false,
+          "caption": "MADE: Design Education and the Art of Making <br>\nThe 26th National Conference on the Beginning Design Student <br> The University of North Carolina at Charlotte, Charlotte, North Carolina"
+        },
+        {
+          "src": "media/2009-pov.pdf",
+          "filetype": "pdf",
+          "title": "Points of View",
+          "date": "2009",
+          "pdf": true,
+          "wide": false,
+          "caption": "But Also, We are a Discipline <br>\nThe 25th National Conference on the Beginning Design Student Proceedings <br> Louisiana State University, Baton Rouge, Louisiana"
+        },
+        {
+          "src": "media/2008-time-architecture-hejduk.pdf",
+          "filetype": "pdf",
+          "title": "The Notion of Body in John Hejduk’s Poetry and Architecture",
+          "date": "2008",
+          "pdf": true,
+          "wide": false,
+          "caption": "Time + Architecture <br> Tongji University Press, Shanghai, China <br>\nISSN: 1005-684X"
+        },
+        {
+          "src": "media/2008-time-architecture-zumthor.pdf",
+          "filetype": "pdf",
+          "title": "Phenomenology in Design Process",
+          "date": "2008",
+          "pdf": true,
+          "wide": false,
+          "caption": "Time + Architecture <br>Tongji University Press, Shanghai, China <br>\nISSN: 1005-684X"
+        },
+        {
+          "src": "media/2008-space-materiality.pdf",
+          "filetype": "pdf",
+          "title": "The Space and Materiality of Drawing",
+          "date": "2008",
+          "pdf": true,
+          "wide": false,
+          "caption": "We Have Never Been Pre-disciplinary  <br>\nThe 24th International Conference on the Beginning Design Student <br>Georgia Institute of Technology, Atlanta, Georgia"
+        },
+        {
+          "src": "media/2007-digital-guise.pdf",
+          "filetype": "pdf",
+          "title": "Digital Guise: The Misleading Ways of Drawing in AutoCAD that May Limit Design Creativity",
+          "date": "2007",
+          "pdf": true,
+          "wide": false,
+          "caption": "Bi-annual Meeting of the Design Communication Association <br>Ball State University, Muncie, Indiana"
+        },
+        {
+          "src": "media/2007-space-movement.pdf",
+          "filetype": "pdf",
+          "title": "Interpreting Architectural Space through Camera Movement",
+          "date": "2007",
+          "pdf": true,
+          "wide": false,
+          "caption": "CAAD Futures 07<br>Sydney, Australia<br>\nWeiling He, Wei Yan"
+        },
+        {
+          "src": "media/2007-drawing-flatness.pdf",
+          "filetype": "pdf",
+          "title": "Drawing Flatness",
+          "date": "2007",
+          "pdf": true,
+          "wide": false,
+          "caption": "Fresh Air <br>\nThe 95th ACSA Annual Meeting <br> Drexel University & University of Pennsylvania, Philadelphia"
+        },
+        {
+          "src": "media/2007-space-music.pdf",
+          "filetype": "pdf",
+          "title": "Space Emerged from Music",
+          "date": "2007",
+          "pdf": true,
+          "wide": false,
+          "caption": "Translation <br>\nThe 23rd National Conference on the Beginning Design Student<br>Savannah College of Art and Design, Savanna, Georgia"
+        },
+        {
+          "src": "media/2006-flatness-camera.pdf",
+          "filetype": "pdf",
+          "title": "Flatness through Camera: The Implications of Camera Movement in the Digital Reconstruction of the Diamond Museum",
+          "date": "2006",
+          "pdf": true,
+          "wide": false,
+          "caption": "Synthetic Landscapes | Digital Exchange <br>\nACADIA 2006 International Conference <br> Louisville, Kentucky"
+        },
+        {
+          "src": "media/2006-sliding-doors.pdf",
+          "filetype": "pdf",
+          "title": "A Passage",
+          "date": "2006",
+          "pdf": true,
+          "wide": false,
+          "caption": "Intersections: Design Education and Other Fields of Inquiry <br>\nThe 22nd National Conference on the Beginning Design Student <br> Iowa State University, Ames, Iowa"
+        },
+        {
+          "src": "media/2005-mondrian-hejduk diamonds.pdf",
+          "filetype": "pdf",
+          "title": "From Mondrian’s Diamonds to Hejduk’s Diamonds: Paintings as Means and Ends for Spatial Construction",
+          "date": "2005",
+          "pdf": true,
+          "wide": false,
+          "caption": "The Art of Architecture/The Science of Architecture <br>\nThe 93rd ACSA Annual Meeting <br> Chicago, Illinois"
+        },
+        {
+          "src": "media/2005-sentiment.pdf",
+          "filetype": "pdf",
+          "title": "When Does a Sentiment Become an Architectural Concept? Otherness in Hejduk’s Wall House 2",
+          "date": "2005",
+          "pdf": true,
+          "wide": false,
+          "caption": "Journal of Architecture, Routledge, London, UK, April 2005 <br>\nISSN 1360-2365"
+        },
+        {
+          "src": "media/2004-feeling-of-otherness.pdf",
+          "filetype": "pdf",
+          "title": "Otherness in Hejduk’s Poetry and Architecture",
+          "date": "2004",
+          "pdf": true,
+          "wide": false,
+          "caption": "ACSA Central Regional Meeting <br> Elgin, Illinois"
+        },
+        {
+          "src": "media/2003-housing-of-meaning.pdf",
+          "filetype": "pdf",
+          "title": "The Housing of Meaning: The Performance of Houses in Ju Dou and Raise the Red Lantern",
+          "date": "2003",
+          "pdf": true,
+          "wide": false,
+          "caption": "ACSA International Conference <br>Helsinki, Finland"
+        },
+        {
+          "src": "media/2003-hejduk-modality.pdf",
+          "filetype": "pdf",
+          "title": "Modalities of Poetic Syntax in the Work of John Hejduk",
+          "date": "2003",
+          "pdf": true,
+          "wide": false,
+          "caption": "The 4th International Space Syntax Symposium <br> London, UK"
+        },
+        {
+          "src": "media/2002-path-judou-narrative.pdf",
+          "filetype": "pdf",
+          "title": "Path: An Narrative of Ju Dou in the Architectural Medium",
+          "date": "2002",
+          "pdf": true,
+          "wide": false,
+          "caption": "The West Regional ACSA Annual Meeting<br>San Luis Obispo, California"
+        },
+        {
+          "src": "media/2002-graph-geometry-language.pdf",
+          "filetype": "pdf",
+          "title": "Graph, Geometry and Language: A Design Triangle",
+          "date": "2001",
+          "pdf": true,
+          "wide": false,
+          "caption": "The 3rd International Space Syntax Symposium <br> Atlanta, Georgia"
+        },
+        {
+          "src": "media/2002-water-street-system.pdf",
+          "filetype": "pdf",
+          "title": "From Water System to Street System: The Stable Social Logic in the Changing Urban Form",
+          "date": "2002",
+          "pdf": true,
+          "wide": false,
+          "caption": "UIA Congress 2002<br> Berlin, Germany"
+        },
+        {
+          "src": "media/2000-technological-maximisation.pdf",
+          "filetype": "pdf",
+          "title": "Technological Maximization and Training of Sensual Fundamentals in Architectural Basic Course",
+          "date": "2000",
+          "pdf": true,
+          "wide": false,
+          "caption": "HKIA Journal no.25 <br>\nJia Beisi, Weiling He"
+        }
+      ],
+      "published": true
+    },
+    {
+      "schema": "article",
+      "uri": "teaching",
+      "title": "Teaching",
+      "template": "work.pug",
+      "caption": "",
+      "body": "",
+      "images": [],
+      "published": true,
+      "filterBy": "teaching"
+    },
+    {
+      "uri": "bio",
+      "schema": "article",
+      "title": "Bio",
+      "template": "bio.pug",
+      "caption": "",
+      "body": "<p class=\"ah-caption\">Weiling He experiments with various media, in her art installations, videos, and watercolor paintings. Her work and writing focus on translation across art forms, diagramming, materiality and making.</p><hr/><p><span>Born in Shanghai, China, Weiling He is a US-based architecture professor who has been exploring design principles outside the discipline.   She holds a PhD from the Georgia Institute of Technology, studying John Hejduk’s early architectural work in relation to painting, poetry, and drawing. In 2008, her further studies on Hejduk’s drawings received the Research and Development Grant from Graham Foundation for Advanced Studies in Fine Arts.</span></p><p><span>Weiling He experiments with various media, such as art installations, videos, and watercolor paintings.   Her work and writing focus on translation across art forms, diagramming, and materiality and making. In the area of installation specifically, <i>The</i> <i>Cut</i> was based on John Hejduk’s translations of “otherness” through the poem, “France Is Far.”  The project was made of metal pieces, glass, and light projection. In 2008, a video of <i>The</i> <i>Cut </i>was exhibited at the First Conference on Phenomenology between 10 Philosophers and 10 Architects from China, organized by <i>Time</i> + <i>Architecture </i>and Tongji University Press.  In 2013, she led a team to win the <i>Curtain’s </i>international competition called by the Center for American Architecture and Design at the University of Texas in Austin.  The project, <i>Plastic</i> <i>Poetry</i>, was constructed with 14,000 plastic shopping bags on the UT campus in October 2013.  Since then, He has been focusing on aesthetic potentials of disposable plastic materials.  In February 2014, she was the invited artist to work on an interior installation with 2,000 plastic water bottles, at the Royal Academy of Arts (KKH) in Stockholm, Sweden.  In November 2015, she worked with a team from the community to complete an outdoor shading/light piece from 3,000 milk jugs at the Brazos Valley African American Museum.</span></p><p><span>In addition, Weiling He has published numerous papers and articles at prestigious journals and conferences, including <i>Journal of Architecture</i>, <i>National Conference on Beginning Design Students</i>, and <i>Association of Collegiate Schools of Architecture Annual Meeting</i>, discussing design translation, drawing, materiality, and design studio pedagogy. Her students’ work, <i>The Basilica Façade by Andrea Palladio</i>, a sequence of charcoal renderings won <i>Jury’s Choice Award</i>, at the at the Bi-annual Exhibition of the Design Communication Association, Ball State University, Indiana in 2007.</span></p>",
+      "images": [
+        {
+          "src": "media/bio.jpg",
+          "filetype": "jpg",
+          "wide": false
+        }
+      ],
+      "published": true
+    },
+    {
+      "uri": "contact",
+      "schema": "article",
+      "template": "contact.pug",
+      "title": "Contact",
+      "caption": "",
+      "body": "",
+      "images": [],
+      "published": true
+    }
+  ],
+  "projects": [
+    {
+      "uri": "lightecho",
+      "schema": "project",
+      "title": "Light Echo & Light Echo II",
+      "published": "false",
+      "images": [
+        {
+          "caption": "",
+          "src": "media/dsc_0200-web.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/g0044707_web.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/l1050389_edit_small.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/l1050383_edit_small.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/l1050381_web.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/gopr3268_web.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/milkjug_small.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/img_2136_web.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/l1050343_edit_web.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/l1050344_edit_web.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/l1050369_edit_small.jpg",
+          "filetype": "jpg"
+        }
+      ],
+      "body": "<p><i>Light Echo </i>and <i>Light Echo II</i> are a sequel of interactive screens that responds to viewers' proximity. Made from Recycled milk jugs and embedded sensors and LED lights, the piece intended more than a static object of decoration. Instead, a viewer's relative distance and his/her duration of stay triggers the sensors which determines the color in which LED lights shine. Such engagement seems to propose that only when recycled art reintegrates in our everyday lift is it truly recycled.</p><p>[vimeo https://vimeo.com/190753385]</p><p>[vimeo https://vimeo.com/190745974]</p>",
+      "caption": "",
+      "date": "2016"
+    },
+    {
+      "uri": "tumbleweed",
+      "schema": "project",
+      "title": "Tumbleweed",
+      "published": "false",
+      "images": [
+        {
+          "caption": "",
+          "src": "media/L1050087-copy.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/L1050095-copy.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/L1050102-copy.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/L1050127-copy.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/L1050132-copy.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/L1050144-copy.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/L1050147-copy.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/L1050150-copy.jpg",
+          "filetype": "jpg"
+        }
+      ],
+      "date": "2016"
+    },
+    {
+      "uri": "milkyway",
+      "schema": "project",
+      "title": "Milky Way",
+      "published": "false",
+      "images": [
+        {
+          "caption": "",
+          "src": "media/2 milkyway.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/milkyway_1-web.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/3.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/4.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/8.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/9.jpg",
+          "filetype": "jpg"
+        }
+      ],
+      "date": "2015",
+      "body": "<p><span>[vimeo https://vimeo.com/148904867]</span></p><p><span>Milky Way negotiates a trapezoid-shaped space at the Brazos Valley African American Museum in Bryan, Texas. A parasitic structure, Milky Way makes an ambivalent statement: at once invading the space with plastic waste and bringing ethereal qualities to the space by the varying degrees of translucency in the layering of the material.</span></p><p>Milky Way is an outdoor shading/lighting piece from 3,000 milk jugs. Connecting two diagonal corners of a rose garden, the suspended piece contracts at the ends and expands in the middle, a shape made of two gentle convex curves. The interstitial space between Milky Way and the building becomes a negative imprint of the piece, which extends to the street intersection alongside the three-sided garden.</p><p><span>Milky Way is composed of two layers. The top layer is an even grid. The bottom layer is a sequence of twisted strands. Both layers are constructed from the same repetitive module in order to suit the skill level of all the participants who helped to building the piece. On top of the piece, solar-powered lights are evenly distributed. As gravity determines the form of Milky Way, the middle portion curves down. The overlapping of the identical modules contributes to the changing translucency in the changing light of the day.</span></p><p><span>A labor-intensive project, the building of Milky Way required some 100 volunteers. They ranged from middle school, high school, to college students, young and old from the nearby neighborhood and various enthusiasts. After two years of effort, including collecting milk jugs, washing and cutting them, making modules from the cut pieces, design and assemblage, and final installation, Milky Way is finally ready for the holiday season—through transformation, allowing a mundane waste to assume a pleasing role in the life of a community.</span></p><p><span>Cecilia Giusti and Wayne Sadberry curated the project. John Nichols provided structural engineering for the installation. Jim Titus managed the initial processing of milk jugs and additional mechanical needs for the installation. The College of Architecture Diversity Council at Texas A&amp;M University supported the project financially. The opening was held on December 4, 2015.</span></p>",
+      "caption": ""
+    },
+    {
+      "uri": "cloudigloo",
+      "schema": "project",
+      "title": "Cloud Igloo",
+      "caption": "",
+      "body": "<p>An installation with 2,000 water bottles to transform the entrance hall in the architecture building at the Royal Academy of Arts in Stockholm (KKH), Sweden.<br/><br/>Curated by Dr. Peter T. Lang from KKH; sound artist: Theodore Trottner. Project completed with student volunteers’ help in 3 days in February, 2014.<br/></p>",
+      "images": [
+        {
+          "src": "media/cloud-igloo-03.jpg",
+          "filetype": "jpg",
+          "wide": false,
+          "imgClass": "col-md-12"
+        },
+        {
+          "src": "media/cloud-igloo-02.jpg",
+          "filetype": "jpg",
+          "wide": false
+        },
+        {
+          "src": "media/cloud-igloo-01.jpg",
+          "filetype": "jpg",
+          "wide": false
+        },
+        {
+          "src": "media/cloud-igloo-04.jpg",
+          "filetype": "jpg",
+          "wide": false
+        },
+        {
+          "src": "media/cloud-igloo-05.jpg",
+          "filetype": "jpg",
+          "wide": false
+        },
+        {
+          "src": "media/cloud-igloo-06.jpg",
+          "filetype": "jpg",
+          "wide": false
+        },
+        {
+          "src": "media/cloud-igloo-07.jpg",
+          "filetype": "jpg",
+          "wide": false
+        },
+        {
+          "src": "media/cloud-igloo-08.jpg",
+          "filetype": "jpg",
+          "wide": false
+        },
+        {
+          "src": "media/cloud-igloo-09.jpg",
+          "filetype": "jpg",
+          "wide": false
+        },
+        {
+          "src": "media/cloud-igloo-10.jpg",
+          "filetype": "jpg",
+          "wide": false
+        },
+        {
+          "src": "media/cloud-igloo-11.jpg",
+          "filetype": "jpg",
+          "wide": false
+        },
+        {
+          "src": "media/cloud-igloo-12.jpg",
+          "filetype": "jpg",
+          "wide": false
+        },
+        {
+          "src": "media/cloud-igloo-13.jpg",
+          "filetype": "jpg",
+          "wide": false
+        },
+        {
+          "src": "media/cloud-igloo-14.jpg",
+          "filetype": "jpg",
+          "wide": false
+        },
+        {
+          "src": "media/cloud-igloo-15.jpg",
+          "filetype": "jpg",
+          "wide": false
+        },
+        {
+          "src": "media/cloud-igloo-16.jpg",
+          "filetype": "jpg",
+          "wide": false
+        },
+        {
+          "src": "media/cloud-igloo-17.jpg",
+          "filetype": "jpg",
+          "wide": false
+        },
+        {
+          "src": "media/cloud-igloo-18.jpg",
+          "filetype": "jpg",
+          "wide": false
+        },
+        {
+          "src": "media/cloud-igloo-19.jpg",
+          "filetype": "jpg",
+          "wide": false
+        },
+        {
+          "src": "media/cloud-igloo-20.jpg",
+          "filetype": "jpg",
+          "wide": false
+        }
+      ],
+      "published": true,
+      "date": "2014"
+    },
+    {
+      "schema": "project",
+      "uri": "plasticpoetry",
+      "title": "Plastic Poetry",
+      "caption": "",
+      "body": "<p>March 2013 marks the beginning of Austin’s choice of environment over convenience as an ordinance banning both paper and plastic bags begins. The ban is one of the broadest in the country, and Austin is the largest city in Texas to ban single-use bags. We propose an installation project to further pronounce Austin’s bag ban and increase environmental awareness on a larger scale, beyond Austin. We will call for volunteers to collect plastic bags and help make curtains from them, and then we will hang the curtains on tree trunks starting on the UT campus and sprawling outwards toward the city. After the installation, the bags will be collected and recycled.</p><p>The project aims to reveal an appearance that oscillates between beautiful and ugly, an elusive yet blunt image of the plastic monster that humans have created. At times, the plastic bags will aggregate into curtains that drape, swing, and billow, as fragile as blossoming flowers and as elegant as trains flowing behind elegant dresses. The translucence of the material will be rendered innocently under the sun. At other times, however, the plastic bags will scream the monstrous truth: over 1 trillion plastic bags are used every year worldwide; about 1 million plastic bags are used every minute; a single plastic bag can take up to 1,000 years to degrade; plastic bags remain toxic even after they break down; and every square mile of ocean has about 46,000 pieces of plastic floating in it. The plastic bag curtains will engulf the trees, our living space, and maybe even ourselves. The beautiful surface of the plastic bag curtains will arouse the uncanny anticipation of the grotesque.</p><p>Plastic is made from compounds synthesized from nature but may take an extremely long time to return to nature. The proposed plastic bag curtain project cannot change this stunning fact, but it presents an occasion for us to look at what we have created and may have taken for granted.</p><p>After winning the competition, Curtains, called by the University of Austin, the team was given a site on the UT campus to re-design and construct the installation. The construction is completed in October, 2013. 14,000 plastic shopping bags were used.<br/><br/>Competition Team: Ganesh Rao, Miaomiao Xiao, Shyam K.</p><p>Construction Engineering:: John Nichols, Keenan McCord</p><p>[vimeo https://vimeo.com/79629957]</p>",
+      "images": [
+        {
+          "caption": "",
+          "src": "media/mg_6400-2_web.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "src": "media/plastic-poetry-22.jpg",
+          "filetype": "jpg",
+          "wide": true
+        },
+        {
+          "src": "media/plastic-poetry-14.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/screen_shot_005.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "src": "media/plastic-poetry-08.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "src": "media/plastic-poetry-09.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "src": "media/plastic-poetry-15.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "src": "media/plastic-poetry-25.jpg",
+          "filetype": "jpg",
+          "wide": true
+        },
+        {
+          "src": "media/plastic-poetry-20.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "src": "media/plastic-poetry-01.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "src": "media/plastic-poetry-26.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "src": "media/plastic-poetry-27.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "src": "media/plastic-poetry-28.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "src": "media/plastic-poetry-05.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "src": "media/plastic-poetry-06.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "src": "media/plastic-poetry-07.jpg",
+          "filetype": "jpg"
+        }
+      ],
+      "published": true,
+      "date": "2013"
+    },
+    {
+      "uri": "clouddream",
+      "schema": "project",
+      "title": "Cloud Dream",
+      "date": "2012",
+      "published": "false",
+      "images": [
+        {
+          "caption": "",
+          "src": "media/img_0876_web.jpg",
+          "filetype": "jpg"
+        }
+      ],
+      "body": "<p>[youtube https://www.youtube.com/watch?v=JC1SCQGiW9k]</p>"
+    },
+    {
+      "uri": "cavestudies",
+      "schema": "project",
+      "title": "Cave Studies",
+      "published": "false",
+      "images": [
+        {
+          "caption": "",
+          "src": "media/Screen shot 2010-08-24 at 1.39.56 PM.png",
+          "filetype": "png"
+        },
+        {
+          "caption": "",
+          "src": "media/Screen shot 2010-08-24 at 1.23.08 PM.png",
+          "filetype": "png"
+        },
+        {
+          "caption": "",
+          "src": "media/Screen shot 2010-08-24 at 1.33.53 PM.png",
+          "filetype": "png"
+        },
+        {
+          "caption": "",
+          "src": "media/screen-shot-2010-08-24-at-1.08.52-pm-web.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/screen-shot-2010-08-24-at-1.27.16-pm_web.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/screen-shot-2011-12-10-at-10.52.15-am_web.jpg",
+          "filetype": "jpg"
+        }
+      ],
+      "date": "2011",
+      "body": "<p>[youtube https://www.youtube.com/watch?v=CAJ5y64-M1w]</p>"
+    },
+    {
+      "schema": "project",
+      "uri": "bedbreakfast",
+      "title": "Bed & Breakfast",
+      "caption": "",
+      "body": "",
+      "images": [
+        {
+          "src": "media/bed-breakfast-01.jpg",
+          "filetype": "jpg",
+          "wide": false
+        },
+        {
+          "src": "media/bed-breakfast-02.jpg",
+          "filetype": "jpg",
+          "wide": false
+        },
+        {
+          "src": "media/bed-breakfast-03.jpg",
+          "filetype": "jpg",
+          "wide": false
+        },
+        {
+          "src": "media/bed-breakfast-04.jpg",
+          "filetype": "jpg",
+          "wide": false
+        },
+        {
+          "src": "media/bed-breakfast-05.jpg",
+          "filetype": "jpg",
+          "wide": false
+        },
+        {
+          "src": "media/bed-breakfast-06.jpg",
+          "filetype": "jpg",
+          "wide": false
+        },
+        {
+          "src": "media/bed-breakfast-07.jpg",
+          "filetype": "jpg",
+          "wide": false
+        },
+        {
+          "src": "media/bed-breakfast-08.jpg",
+          "filetype": "jpg",
+          "wide": false
+        },
+        {
+          "src": "media/bed-breakfast-09.jpg",
+          "filetype": "jpg",
+          "wide": false
+        },
+        {
+          "src": "media/bed-breakfast-10.jpg",
+          "filetype": "jpg",
+          "wide": false
+        },
+        {
+          "src": "media/bed-breakfast-11.jpg",
+          "filetype": "jpg",
+          "wide": false
+        },
+        {
+          "src": "media/bed-breakfast-12.jpg",
+          "filetype": "jpg",
+          "wide": false
+        }
+      ],
+      "published": true,
+      "date": "2007 - 2010"
+    },
+    {
+      "schema": "project",
+      "uri": "thecut",
+      "title": "The Cut",
+      "caption": "",
+      "body": "",
+      "images": [
+        {
+          "src": "media/the-cut-01.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "src": "media/the-cut-02.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "src": "media/the-cut-03.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "src": "media/the-cut-04.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "src": "media/the-cut-05.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "src": "media/the-cut-06.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "src": "media/the-cut-07.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "src": "media/the-cut-08.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "src": "media/the-cut-09.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "src": "media/the-cut-10.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "src": "media/the-cut-11.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "src": "media/the-cut-12.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "src": "media/the-cut-13.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "src": "media/the-cut-14.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "src": "media/the-cut-15.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "src": "media/the-cut-16.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "src": "media/the-cut-17.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "src": "media/the-cut-18.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "src": "media/the-cut-19.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "src": "media/the-cut-20.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "src": "media/the-cut-21.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "src": "media/the-cut-22.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "src": "media/the-cut-23.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "src": "media/the-cut-24.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "src": "media/the-cut-25.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "src": "media/the-cut-26.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "src": "media/the-cut-27.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "src": "media/the-cut-28.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "src": "media/the-cut-29.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "src": "media/the-cut-30.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "src": "media/the-cut-31.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "src": "media/the-cut-32.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "src": "media/the-cut-33.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "src": "media/the-cut-34.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "src": "media/the-cut-35.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "src": "media/the-cut-36.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "src": "media/the-cut-37.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "src": "media/the-cut-38.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "src": "media/the-cut-39.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "src": "media/the-cut-40.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "src": "media/the-cut-41.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "src": "media/the-cut-42.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "src": "media/the-cut-43.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "src": "media/the-cut-44.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "src": "media/the-cut-45.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "src": "media/the-cut-46.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "src": "media/the-cut-47.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "src": "media/the-cut-video-01.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "src": "media/the-cut-video-02.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "src": "media/the-cut-video-03.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "src": "media/the-cut-video-04.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "src": "media/the-cut-video-05.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "src": "media/the-cut-video-06.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "src": "media/the-cut-video-07.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "src": "media/the-cut-video-08.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "src": "media/the-cut-video-09.jpg",
+          "filetype": "jpg"
+        }
+      ],
+      "published": true,
+      "date": "2008"
+    },
+    {
+      "schema": "project",
+      "uri": "texashorizonii",
+      "title": "Texas Horizon II",
+      "caption": "",
+      "body": "<p>Texas is flat. Life blossoms from the repetition and variation of flatness. And the horizon line extends endlessly.<br/><br/>The series was made on postcard watercolor paper between June 2006 and January 2009. Dimensions: 4 in x 6 in.<br/></p>",
+      "images": [
+        {
+          "src": "media/texas-horizon-ii-01.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "src": "media/texas-horizon-ii-02.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "src": "media/texas-horizon-ii-03.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "src": "media/texas-horizon-ii-04.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "src": "media/texas-horizon-ii-06.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "src": "media/texas-horizon-ii-07.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "src": "media/texas-horizon-ii-08.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "src": "media/texas-horizon-ii-09.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "src": "media/texas-horizon-ii-10.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "src": "media/texas-horizon-ii-11.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "src": "media/texas-horizon-ii-12.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "src": "media/texas-horizon-ii-13.jpg",
+          "filetype": "jpg"
+        }
+      ],
+      "published": true,
+      "date": "2009"
+    },
+    {
+      "schema": "project",
+      "uri": "yecheng",
+      "title": "Ye Cheng",
+      "caption": "",
+      "body": "",
+      "images": [
+        {
+          "src": "media/ye-cheng-01.jpg",
+          "filetype": "jpg",
+          "wide": false
+        },
+        {
+          "src": "media/ye-cheng-02.jpg",
+          "filetype": "jpg",
+          "wide": false
+        },
+        {
+          "src": "media/ye-cheng-03.jpg",
+          "filetype": "jpg",
+          "wide": false
+        },
+        {
+          "src": "media/ye-cheng-04.jpg",
+          "filetype": "jpg",
+          "wide": false
+        },
+        {
+          "src": "media/ye-cheng-05.jpg",
+          "filetype": "jpg",
+          "wide": false
+        },
+        {
+          "src": "media/ye-cheng-06.jpg",
+          "filetype": "jpg",
+          "wide": false
+        },
+        {
+          "src": "media/ye-cheng-07.jpg",
+          "filetype": "jpg",
+          "wide": false
+        },
+        {
+          "src": "media/ye-cheng-08.jpg",
+          "filetype": "jpg",
+          "wide": true
+        },
+        {
+          "src": "media/ye-cheng-09.jpg",
+          "filetype": "jpg",
+          "wide": false
+        },
+        {
+          "src": "media/ye-cheng-10.jpg",
+          "filetype": "jpg",
+          "wide": false
+        },
+        {
+          "src": "media/ye-cheng-11.jpg",
+          "filetype": "jpg",
+          "wide": false
+        },
+        {
+          "src": "media/ye-cheng-12.jpg",
+          "filetype": "jpg",
+          "wide": false
+        }
+      ],
+      "published": true,
+      "date": "2006 - 2008"
+    },
+    {
+      "schema": "project",
+      "uri": "jadeislet",
+      "title": "Jade Islet",
+      "date": "2007",
+      "caption": "",
+      "body": "",
+      "images": [
+        {
+          "src": "media/jade-islet-02.jpg",
+          "filetype": "jpg",
+          "embed": false,
+          "title": "Jade Islet Image Title",
+          "caption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          "wide": false
+        },
+        {
+          "src": "media/jade-islet-03.jpg",
+          "filetype": "jpg",
+          "wide": false,
+          "caption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+        },
+        {
+          "src": "media/jade-islet-01.jpg",
+          "filetype": "jpg",
+          "embed": false,
+          "title": "Jade Islet Title",
+          "caption": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          "wide": false
+        },
+        {
+          "src": "media/jade-islet-04.jpg",
+          "filetype": "jpg",
+          "wide": false
+        },
+        {
+          "src": "media/jade-islet-05.jpg",
+          "filetype": "jpg",
+          "wide": true,
+          "caption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          "title": "Sample wide image"
+        }
+      ],
+      "published": true
+    },
+    {
+      "schema": "project",
+      "uri": "texashorizon",
+      "title": "Texas Horizon",
+      "caption": "",
+      "body": "",
+      "images": [
+        {
+          "src": "media/texas-horizon-01.jpg",
+          "filetype": "jpg",
+          "wide": false
+        },
+        {
+          "src": "media/texas-horizon-05.jpg",
+          "filetype": "jpg",
+          "wide": false
+        },
+        {
+          "src": "media/texas-horizon-02.jpg",
+          "filetype": "jpg",
+          "wide": false
+        },
+        {
+          "src": "media/texas-horizon-03.jpg",
+          "filetype": "jpg",
+          "wide": false
+        },
+        {
+          "src": "media/texas-horizon-04.jpg",
+          "filetype": "jpg",
+          "wide": false
+        },
+        {
+          "src": "media/texas-horizon-06.jpg",
+          "filetype": "jpg",
+          "wide": false
+        }
+      ],
+      "published": true,
+      "date": "2006"
+    },
+    {
+      "schema": "project",
+      "uri": "travelersplaces",
+      "title": "Traveler's Places",
+      "caption": "",
+      "body": "",
+      "images": [
+        {
+          "src": "media/travelers-places-01.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "src": "media/travelers-places-02.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "src": "media/travelers-places-03.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "src": "media/travelers-places-04.jpg",
+          "filetype": "jpg"
+        }
+      ],
+      "published": true,
+      "date": "1993"
+    }
+  ],
+  "news": [
+    {
+      "uri": "lightechonews",
+      "schema": "news",
+      "title": "Light Echo II Debuts at the Austin Trash Makeover Challenge 2016",
+      "date": "September 2016",
+      "caption": "",
+      "body": "<p><b><a href=\"work/lightecho\" target=\"\">Light Echo II</a></b> is an continuation of <b>Light Echo</b> (2016) and <b>Milky Way</b> (2015), reusing the milk jug pieces from the previous projects. It integrates interactive light and projections to reflect the audience's proximity. The backdrop for the green carpet, <i>Light Echo II</i> was exhibited at Austin Trash Makeover Challenge 2016, the event organized by the Texas Campaign for the Environment, where people around the nation celebrate the beauty of “waste.”</p><ul><li><a href=\"http://www.austin360.com/entertainment/list-trash-makeover-challenge/NcAdy4WVThnxW3vMd4PZcN/\" target=\"\">Austin 360 A-List: Trash Makeover Challenge 09.24.16</a></li><li><a href=\"http://www.trashmakeover.com/2016-interactive-wall\" target=\"\">Interactive Wall, TrashMakeover</a></li><li><a href=\"https://one.arch.tamu.edu/news/2016/10/11/students-backdrop-recycled-materials-adorns-fashion-show\">Students’ backdrop of recycled materials adorns fashion show</a></li></ul>",
+      "published": true,
+      "images": [
+        {
+          "caption": "",
+          "src": "media/l1050389_edit_small.jpg",
+          "filetype": "jpg"
+        }
+      ]
+    },
+    {
+      "schema": "news",
+      "uri": "milkywaynews",
+      "title": "'Milky Way' Lights up Christmas Atmosphere",
+      "body": "<p><a href=\"work/milkyway\">Milky Way</a>, designed by Weiling He, negotiates a trapezoid-shaped space at the Brazos Valley African American Museum in Bryan, Texas, USA. <span> </span>A parasitic structure, <i>Milky Way</i> makes an ambivalent statement: at once invading the space with plastic waste and bringing ethereal qualities to the space by the varying degrees of translucency in the layering of the material. Cecilia Giusti and Wayne Sadberry curated the project. John Nichols provided structural engineering for the installation. Jim Titus managed the initial processing of milk jugs and additional mechanical needs for the installation. The College of Architecture Diversity Council at Texas A&amp;M University supported the project financially and provided logistic support at all stages. The opening was held on December 4, 2015.</p><ul><li><a href=\"http://www.theeagle.com/news/local/milky-way-installation-on-display-through-june-at-brazos-valley/article_98e6f6c4-9b15-11e5-b23a-bbbd146b6803.html\" target=\"_blank\">'Milky Way’ installation on display through June at Brazos Valley African American Museum</a></li><li><a href=\"https://one.arch.tamu.edu/news/2015/12/2/design-milky-way-african-american-museum/\">'Milky Way’ installation on exhibit through January at Bryan museum</a></li></ul>",
+      "published": true,
+      "images": [
+        {
+          "caption": "Image credit: Richard Nira",
+          "src": "media/9.jpg",
+          "filetype": "jpg"
+        }
+      ],
+      "date": "December 2015",
+      "caption": ""
+    }
+  ],
+  "teaching": [
+    {
+      "uri": "2015-desk-parasite",
+      "schema": "teaching",
+      "title": "Desk Parasite",
+      "date": "2015",
+      "published": true,
+      "images": [
+        {
+          "caption": "",
+          "src": "media/assembly_web.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/jade-floor-plan_web.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/jade-section_web.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/parasite-assembly_web.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/parasite-section_web.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/parasite-plan_web.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/parasite-drawing-scan---section_web.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/parasite-drawing-scan---oblique_web.jpg",
+          "filetype": "jpg"
+        }
+      ]
+    },
+    {
+      "uri": "2015-carve-tear",
+      "schema": "teaching",
+      "title": "Carve . Tear",
+      "published": true,
+      "images": [
+        {
+          "caption": "",
+          "src": "media/clay-model-with-construction-lines-front-view_web.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/layout_edit_web.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/clay-back_web.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/clay-front_edit_web.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/paper-back_edit_web.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/paper-front_edit_web.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/section_edit_web.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/ashlyn_plan.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/endview.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/perspectiveview.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/endview2_web.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/frontview_web.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/image1_web.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/image5_web.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/image6_web.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/image12_web.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/image13_web.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/ross_floorplanscann_web.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/ross_topviewtrue.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/bottomviewclay_web.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/ross_sideview.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/ross_sideview2.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/paper-topview_web.jpg",
+          "filetype": "jpg"
+        }
+      ],
+      "date": "2015 <br> 1st year design studio"
+    },
+    {
+      "uri": "2014-roots",
+      "schema": "teaching",
+      "title": "Roots",
+      "published": true,
+      "images": [
+        {
+          "caption": "",
+          "src": "media/FinalStudy_XiWu-34.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/FinalStudy_XiWu-11.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/FinalStudy_XiWu-16_17.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/FinalStudy_XiWu-18-19.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/FinalStudy_XiWu-21.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/FinalStudy_XiWu-28.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/FinalStudy_XiWu-27.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/FinalStudy_XiWu-29.jpg",
+          "filetype": "jpg"
+        }
+      ],
+      "date": "2014 <br> M.Arch thesis",
+      "caption": "",
+      "body": "<p>master's thesis <br/> Xi Wu<br/></p>"
+    },
+    {
+      "uri": "2013-parasite",
+      "schema": "teaching",
+      "title": "REcycled Parasite",
+      "published": true,
+      "images": [
+        {
+          "caption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent varius nisi vitae tristique feugiat. Nulla ac porttitor est. Sed augue sapien, tempus sed rutrum interdum, aliquet porttitor lectus. Integer efficitur neque ut ante pulvinar, eu laoreet arcu hendrerit. Nullam gravida, sem sit amet tincidunt ornare, est metus vulputate ipsum, ut egestas tortor ligula ac ex. Quisque bibendum interdum velit, in dignissim nisi mollis quis. Etiam vitae massa eget arcu maximus ultrices ut ut sapien. Praesent non pulvinar erat, hendrerit pulvinar augue. Curabitur nec ultricies odio, sit amet auctor nisi.",
+          "src": "media/_MG_6262_small.jpg",
+          "filetype": "jpg",
+          "imgClass": "col-md-6"
+        },
+        {
+          "caption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent varius nisi vitae tristique feugiat. Nulla ac porttitor est. Sed augue sapien, tempus sed rutrum interdum, aliquet porttitor lectus. Integer efficitur neque ut ante pulvinar, eu laoreet arcu hendrerit. Nullam gravida, sem sit amet tincidunt ornare, est metus vulputate ipsum, ut egestas tortor ligula ac ex. Quisque bibendum interdum velit, in dignissim nisi mollis quis. Etiam vitae massa eget arcu maximus ultrices ut ut sapien. Praesent non pulvinar erat, hendrerit pulvinar augue. Curabitur nec ultricies odio, sit amet auctor nisi.",
+          "src": "media/_MG_6587_small.jpg",
+          "filetype": "jpg",
+          "imgClass": "col-md-3"
+        },
+        {
+          "caption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent varius nisi vitae tristique feugiat. Nulla ac porttitor est. Sed augue sapien, tempus sed rutrum interdum, aliquet porttitor lectus. Integer efficitur neque ut ante pulvinar, eu laoreet arcu hendrerit.",
+          "src": "media/_MG_6698_small.jpg",
+          "filetype": "jpg",
+          "imgClass": "col-md-4",
+          "title": "Lorem Ipsum",
+          "date": "2009 (Wood & Plastic Sculpture)"
+        },
+        {
+          "caption": "",
+          "src": "media/_MG_6773_small.jpg",
+          "filetype": "jpg",
+          "imgClass": "col-md-6"
+        },
+        {
+          "caption": "",
+          "src": "media/_MG_6796_small.jpg",
+          "filetype": "jpg",
+          "imgClass": "col-md-6"
+        },
+        {
+          "caption": "",
+          "src": "media/_MG_6799_small.jpg",
+          "filetype": "jpg",
+          "imgClass": "col-md-6"
+        },
+        {
+          "caption": "",
+          "src": "media/_MG_6836_small.jpg",
+          "filetype": "jpg",
+          "imgClass": "col-md-6"
+        },
+        {
+          "caption": "",
+          "src": "media/_MG_6862_small.jpg",
+          "filetype": "jpg",
+          "imgClass": "col-md-6"
+        },
+        {
+          "caption": "",
+          "src": "media/_MG_6878_small.jpg",
+          "filetype": "jpg",
+          "imgClass": "col-md-6"
+        },
+        {
+          "caption": "",
+          "src": "media/cody1.jpg",
+          "filetype": "jpg",
+          "imgClass": "col-md-9"
+        },
+        {
+          "caption": "",
+          "src": "media/cody2.jpg",
+          "filetype": "jpg"
+        }
+      ],
+      "body": "<p>To understand the construction of surfaces from aggregation of units. To understand architectural design from the point of view of tectonics and site. Transforming recycled materials into building units to build an architectural screen and to create a dialogue with a site.</p><p>Work Credits: Cody Clancy, Keenan McCord, Bejamin Hobbs, Sarah Stolting, Leslie Tijerina.<br/></p>",
+      "date": "2013 <br> 2nd Year Design Studio",
+      "caption": ""
+    },
+    {
+      "uri": "2012-diagramming",
+      "schema": "teaching",
+      "title": "Diagramming",
+      "published": true,
+      "images": [
+        {
+          "caption": "",
+          "src": "media/Diagram1.0.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/conceptual diagram.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/Diagram2.0.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/expressive diagram.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/Line sequence.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/TheFall_Diagram1.jpg",
+          "filetype": "jpg"
+        }
+      ],
+      "date": "2012 <br> seminar"
+    },
+    {
+      "uri": "2012-cave",
+      "schema": "teaching",
+      "title": "Cave Studies Art Guild",
+      "published": true,
+      "images": [
+        {
+          "caption": "",
+          "src": "media/Alex2.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/Alex3.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/Alex4.jpg",
+          "filetype": "jpg",
+          "imgClass": "col-md-9"
+        },
+        {
+          "caption": "",
+          "src": "media/Alex5.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/audiodiagram2.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/cave_poster2- meredith.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/Connections.jpg",
+          "filetype": "jpg",
+          "imgClass": "col-md-12"
+        },
+        {
+          "caption": "",
+          "src": "media/Hillary.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/Light Shadow Good.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/progression.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/prt sc embodiement.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/Rock Layering 3.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/Rock Layering.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/Rock layering2.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/stuck.jpg",
+          "filetype": "jpg"
+        }
+      ],
+      "caption": "",
+      "date": "2012 <br> 2nd Year Design Studio",
+      "body": "<p>To understand architectural design from a sensory point of view; and to explore the design of a space in relation to the embodiment of space. Using diagrams to study the forms of and experiences within natural caves, the promitive condition of dwelling.</p><p>Work Credits: Samuel Florence, Katelynn Parker, Benhamin Wilde, Preston Scott.<br/></p>"
+    },
+    {
+      "uri": "2011-dive-shop",
+      "schema": "teaching",
+      "title": "Cave Studies Dive Shop",
+      "published": true,
+      "images": [
+        {
+          "caption": "",
+          "src": "media/new picture.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/ARIAL_PERSPECTIVE.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/Basement.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/cave_poster2- meredith.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/DOCK_RENDERING.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/Ground Floor.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/INTERIOR.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/LONG_ELEVATION1.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/LONG_ELEVATION2.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/LongSection.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/NIGHT_RENDER2.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/progression.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/prt sc embodiement.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/Second Floor.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/section rendering for diagrams.jpeg",
+          "filetype": "jpeg"
+        },
+        {
+          "caption": "",
+          "src": "media/Section2.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/Section3.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/Sections prt sc 2.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/Sections2 [Converted].jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/SHORT_ELEVATION.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/site shadow2.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/strand render.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/texture diagrams.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/WIDE_ANGLE.jpg",
+          "filetype": "jpg"
+        }
+      ],
+      "date": "2011 <br> 2nd year design studio",
+      "caption": "",
+      "body": "<p>To understand form in relation to formation and use cave, the geological tectonic example, as a metaphor for architectural tectonics. To study the tectonics of cave formation and draw insprations for the language of strand in architecture.</p><p>Work Credits: Ning Xiao, Dylan Knipes, Hillary Cowen.<br/></p>"
+    },
+    {
+      "uri": "2011-fashion-theater",
+      "schema": "teaching",
+      "title": "Fashion Theater",
+      "published": true,
+      "images": [
+        {
+          "caption": "",
+          "src": "media/IMG_0822-edit2.jpg",
+          "filetype": "jpg",
+          "imgClass": "col-md-12"
+        },
+        {
+          "caption": "",
+          "src": "media/IMG_2885-edit2.jpg",
+          "filetype": "jpg",
+          "imgClass": "col-md-9"
+        },
+        {
+          "caption": "",
+          "src": "media/IMG_2909-edit2.jpg",
+          "filetype": "jpg",
+          "imgClass": "col-md-9"
+        },
+        {
+          "caption": "",
+          "src": "media/IMG_2942-edit2.jpg",
+          "filetype": "jpg",
+          "imgClass": "col-md-9"
+        },
+        {
+          "caption": "",
+          "src": "media/IMG_3011-edit2.jpg",
+          "filetype": "jpg",
+          "imgClass": "col-md-9"
+        },
+        {
+          "caption": "",
+          "src": "media/IMG_3033-edit2.jpg",
+          "filetype": "jpg",
+          "imgClass": "col-md-9"
+        },
+        {
+          "caption": "",
+          "src": "media/IMG_3046-edit2.jpg",
+          "filetype": "jpg",
+          "imgClass": "col-md-9"
+        },
+        {
+          "caption": "",
+          "src": "media/Screen Shot 2013-02-08 at 11.13.06 AM.png",
+          "filetype": "png",
+          "imgClass": "col-md-6"
+        },
+        {
+          "caption": "",
+          "src": "media/Screen Shot 2013-02-08 at 11.19.51 AM.png",
+          "filetype": "png",
+          "imgClass": "col-md-6"
+        },
+        {
+          "caption": "",
+          "src": "media/Screen Shot 2013-02-08 at 11.21.05 AM.png",
+          "filetype": "png",
+          "imgClass": "col-md-6"
+        },
+        {
+          "caption": "",
+          "src": "media/Screen Shot 2013-02-08 at 11.22.17 AM.png",
+          "filetype": "png",
+          "imgClass": "col-md-6"
+        },
+        {
+          "caption": "",
+          "src": "media/Screen Shot 2013-02-08 at 11.25.45 AM.png",
+          "filetype": "png",
+          "imgClass": "col-md-6"
+        },
+        {
+          "caption": "",
+          "src": "media/Screen Shot 2013-02-08 at 11.27.38 AM.png",
+          "filetype": "png",
+          "imgClass": "col-md-6"
+        }
+      ],
+      "date": "2011 <br> 2nd year design studio",
+      "caption": "",
+      "body": "<p>To understand form through tectonics and bodily movement. To understand from across various media, such as body, geometry, material, music, and animation graphics. Architecture students collaborating with visualization<br/>students on a theater performance with apparatus, dance, music, animation, and light.</p><p>Work Credits: Demerius Seals, Benhamin Wilde, Ning Xiao, Cailin Magill, Samuel Florence, Katelynn Parker, Daniel Kelly.<br/></p>"
+    },
+    {
+      "uri": "2009-materials-and-eco-tourism",
+      "schema": "teaching",
+      "title": "Materials and Eco-Tourism",
+      "published": true,
+      "images": [
+        {
+          "caption": "",
+          "src": "media/approach-view.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/level1 plan-buidling1-reception and gift shop-white.jpg",
+          "filetype": "jpg",
+          "imgClass": "col-md-6"
+        },
+        {
+          "caption": "",
+          "src": "media/level1 plan-buidling1-rentals and fitness-white.jpg",
+          "filetype": "jpg",
+          "imgClass": "col-md-6"
+        },
+        {
+          "caption": "",
+          "src": "media/level1 plan-buidling2-mini suites and service-white.jpg",
+          "filetype": "jpg",
+          "imgClass": "col-md-6"
+        },
+        {
+          "caption": "",
+          "src": "media/level2 plan-buidling1-seaside rooms-white.jpg",
+          "filetype": "jpg",
+          "imgClass": "col-md-6"
+        },
+        {
+          "caption": "",
+          "src": "media/level2 plan-buidling2-hostel rooms&mini suites-white.jpg",
+          "filetype": "jpg",
+          "imgClass": "col-md-6"
+        },
+        {
+          "caption": "",
+          "src": "media/level2 plan-buidling3-bar-white.jpg",
+          "filetype": "jpg",
+          "imgClass": "col-md-6"
+        },
+        {
+          "caption": "",
+          "src": "media/level3 plan-buidling1-yoga studio-white.jpg",
+          "filetype": "jpg",
+          "imgClass": "col-md-6"
+        },
+        {
+          "caption": "",
+          "src": "media/level3 plan-buidling2-standard rooms-white.jpg",
+          "filetype": "jpg",
+          "imgClass": "col-md-6"
+        },
+        {
+          "caption": "",
+          "src": "media/level3 plan-buidling3-restaurant-white.jpg",
+          "filetype": "jpg",
+          "imgClass": "col-md-6"
+        },
+        {
+          "caption": "",
+          "src": "media/level4 plan-buidling2-family suites-white.jpg",
+          "filetype": "jpg",
+          "imgClass": "col-md-6"
+        },
+        {
+          "caption": "",
+          "src": "media/location-1.jpg",
+          "filetype": "jpg",
+          "imgClass": "col-md-12"
+        },
+        {
+          "caption": "",
+          "src": "media/location-2.jpg",
+          "filetype": "jpg",
+          "imgClass": "col-md-12"
+        },
+        {
+          "caption": "",
+          "src": "media/location-3.jpg",
+          "filetype": "jpg",
+          "imgClass": "col-md-12"
+        },
+        {
+          "caption": "",
+          "src": "media/location-5.jpg",
+          "filetype": "jpg",
+          "imgClass": "col-md-12"
+        },
+        {
+          "caption": "",
+          "src": "media/scripted line work lofted into a surface.jpg",
+          "filetype": "jpg",
+          "imgClass": "col-md-12"
+        },
+        {
+          "caption": "",
+          "src": "media/scripted line work.jpg",
+          "filetype": "jpg",
+          "imgClass": "col-md-12"
+        },
+        {
+          "caption": "",
+          "src": "media/scripted surface dropped below the grd plane.jpg",
+          "filetype": "jpg",
+          "imgClass": "col-md-12"
+        },
+        {
+          "caption": "",
+          "src": "media/scripting attempt1.jpg",
+          "filetype": "jpg",
+          "imgClass": "col-md-12"
+        },
+        {
+          "caption": "",
+          "src": "media/site plan-white.jpg",
+          "filetype": "jpg",
+          "imgClass": "col-md-12"
+        },
+        {
+          "caption": "",
+          "src": "media/view from 2nd floor balcony of building2.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/view from circulation ramps.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/view from track.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/view of bike and surf rental shop.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/view of entrance.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/view of hotel room.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/view of main entry to reception.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/view of pathway to building2.jpg",
+          "filetype": "jpg"
+        }
+      ],
+      "date": "2009 <br> M.Arch thesis",
+      "body": "<p>To understand architectural design from the perspectives of eco-systems, materials and eco-tourism. To use scripting as a diagramming method in the form finding process. To design an eco-resort in Puerto Viejo located near a small Caribbean surf town in Costa Rica.<br/>Work Credit: Jeremy Harper.<br/></p>"
+    },
+    {
+      "uri": "2009-fall-video-diagrams",
+      "schema": "teaching",
+      "title": "Video Diagrams",
+      "published": true,
+      "images": [
+        {
+          "caption": "",
+          "src": "media/2009_485_dark-picture-15_web.jpg",
+          "filetype": "jpg"
+        }
+      ],
+      "date": "2009 <br> seminar",
+      "body": "<p>To use video as a diagramming medium. To experiment with phenomena generated from interaction among material attributes. Through visual representations, to explore one idea both from a horrifying and from a beautiful point of view. Define an idea that arouses opposite feelings. Register such feelings through catching sensations derived from materials.</p><p>Work Credit: Paul Alvarez.</p><p><br/></p><p>https://vimeo.com/108685386<br/></p><p>A Transient Death translates a scene from the German film Vitus. The purpose of this project was to diagram transience, more specifically, though, death and the perception of it. I have chosen to diagram the emotion and taking a conceptual approach rather than taking a strict, and rational stance. The method was to take frozen ice and pour melted way on top of it. The wax would meet the surface of the ice and chill instantaneously. I was studying the effects of the wax on the ice. The most popular comment about the form’s aesthetic was that it was grotesque. I would agree. The wax acts as both skin and structure. It has a raw, fleshy<br/>features. It flows like a stream of blood collecting, and solidifying on the skin. Adding more layers of blood, flesh; it falls warm, but cools to the touch. The warmth leaves it, transferring from one medium to the other. The mass of ice absorbs it. Keeps it for itself. Hoarding it. Stealing the essence of what makes the liquid wax hot in the first place. The concept began with the realization the the water cycle is transient. The clouds are a gas, the<br/>clouds shed water, and the water sometimes freezes. Then, I began to think about death, followed by the excogitation of the dichotomy between life and death. So, I associated death with coldness, and<br/>life with warmth. That is how the concept rested in my mind.</p><p>I also set out to suggest a different view of death. One with a beautiful aesthetic. An aesthetic that offers hope and the prospect to love a loved one who has been seized by death. I froze a small flower in distilled water. Frozen distilled water offers an unobstructed view of the flower. No contamination. Pure. Clean. Beautiful. The project Indelible Beauty corresponds to this concept. The methods were the same. I froze ice, and dripped hot wax. The only factors that changed were the color of the wax, and that a flower was now frozen inside.</p><p>Indelible Beauty reminds us that beauty is the object of our desire. We long for it. And its everlasting mark rests within us.<br/></p>"
+    },
+    {
+      "uri": "2009-music-wall",
+      "schema": "teaching",
+      "title": "Music Wall",
+      "published": true,
+      "images": [
+        {
+          "caption": "",
+          "src": "media/John Bonano_redone.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/John Bonano_redone 1.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/John Bonano_redone 2.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/John Bonano new text.jpg",
+          "filetype": "jpg",
+          "imgClass": "col-md-6"
+        },
+        {
+          "caption": "",
+          "src": "media/John Bonano_redone 5.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/John Bonano_redone 3.jpg",
+          "filetype": "jpg"
+        }
+      ],
+      "date": "2009<br>visual communication foundations",
+      "body": "<p>To achieve both a dynamic spatial composition and an interesting spatial experience in designing an installation project. To utilize drawing and modeling skills to develop and articulate the design. Develop a wall installation based on a piece of music. The site is a neglected space in the architecture building.<br/>Work Credit: John Bonano.<br/></p>"
+    },
+    {
+      "uri": "2009-design-language-impression",
+      "schema": "teaching",
+      "title": "Design Language Impression",
+      "published": true,
+      "images": [
+        {
+          "caption": "",
+          "src": "media/Comp3ready.jpg",
+          "filetype": "jpg",
+          "imgClass": "col-md-6"
+        },
+        {
+          "caption": "",
+          "src": "media/composition.jpg",
+          "filetype": "jpg",
+          "imgClass": "col-md-6"
+        },
+        {
+          "caption": "",
+          "src": "media/Drawing005.jpg",
+          "filetype": "jpg",
+          "imgClass": "col-md-6"
+        },
+        {
+          "caption": "",
+          "src": "media/Drawing013.jpg",
+          "filetype": "jpg",
+          "imgClass": "col-md-6"
+        },
+        {
+          "caption": "",
+          "src": "media/Drawing020.jpg",
+          "filetype": "jpg",
+          "imgClass": "col-md-6"
+        },
+        {
+          "caption": "",
+          "src": "media/Exercise2a (1).jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/expression4.jpg",
+          "filetype": "jpg",
+          "imgClass": "col-md-6"
+        },
+        {
+          "caption": "",
+          "src": "media/Expressive 7007.jpg",
+          "filetype": "jpg",
+          "imgClass": "col-md-6"
+        },
+        {
+          "caption": "",
+          "src": "media/Expressive 8008.jpg",
+          "filetype": "jpg",
+          "imgClass": "col-md-6"
+        },
+        {
+          "caption": "",
+          "src": "media/final_composition.jpg",
+          "filetype": "jpg",
+          "imgClass": "col-md-6"
+        },
+        {
+          "caption": "",
+          "src": "media/IMG_1315.jpg",
+          "filetype": "jpg",
+          "imgClass": "col-md-9"
+        },
+        {
+          "caption": "",
+          "src": "media/IMG_1355.jpg",
+          "filetype": "jpg",
+          "imgClass": "col-md-9"
+        },
+        {
+          "caption": "",
+          "src": "media/img002.jpg",
+          "filetype": "jpg",
+          "imgClass": "col-md-6"
+        },
+        {
+          "caption": "",
+          "src": "media/img005-1.jpg",
+          "filetype": "jpg",
+          "imgClass": "col-md-6"
+        },
+        {
+          "caption": "",
+          "src": "media/img006.jpg",
+          "filetype": "jpg",
+          "imgClass": "col-md-6"
+        },
+        {
+          "caption": "",
+          "src": "media/img008.jpg",
+          "filetype": "jpg",
+          "imgClass": "col-md-6"
+        },
+        {
+          "caption": "",
+          "src": "media/img012-1.jpg",
+          "filetype": "jpg",
+          "imgClass": "col-md-6"
+        },
+        {
+          "caption": "",
+          "src": "media/img014-2.jpg",
+          "filetype": "jpg",
+          "imgClass": "col-md-6"
+        },
+        {
+          "caption": "",
+          "src": "media/img016-2.jpg",
+          "filetype": "jpg",
+          "imgClass": "col-md-6"
+        },
+        {
+          "caption": "",
+          "src": "media/img019-2.jpg",
+          "filetype": "jpg",
+          "imgClass": "col-md-6"
+        },
+        {
+          "caption": "",
+          "src": "media/img027-1.jpg",
+          "filetype": "jpg",
+          "imgClass": "col-md-6"
+        },
+        {
+          "caption": "",
+          "src": "media/img030-1.jpg",
+          "filetype": "jpg",
+          "imgClass": "col-md-6"
+        },
+        {
+          "caption": "",
+          "src": "media/Page4.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/Page5.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/Portfolio Fall 2009 Page 1x2.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/Portfolio Fall 2009 Page 3x4.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/Section1.jpg",
+          "filetype": "jpg",
+          "imgClass": "col-md-9"
+        },
+        {
+          "caption": "",
+          "src": "media/Section2.jpg",
+          "filetype": "jpg",
+          "imgClass": "col-md-9"
+        },
+        {
+          "caption": "",
+          "src": "media/SOUTH ELEVATION.jpg",
+          "filetype": "jpg",
+          "imgClass": "col-md-9"
+        },
+        {
+          "caption": "",
+          "src": "media/WEST ELEVATION.jpg",
+          "filetype": "jpg",
+          "imgClass": "col-md-9"
+        }
+      ],
+      "date": "2009, 2008 <br> visual communication foundation",
+      "body": "<p>This exercise is about sketching and thinking. Through drawing, students learn not only design languages but also design ideas of an architect’s work. They then use drawings to transform the existing design language into their own. Sketching Daniel Libeskind’s work. Make a composition of the sketches. Derive a new composition from the existing one.</p><p>Work Credits: Siavash Bayegan, Arnold Ghil, Dustin Mattiza, etc.<br/></p>"
+    },
+    {
+      "uri": "2009-wearable-movable-architecture",
+      "schema": "teaching",
+      "title": "Wearable Movable Architecture",
+      "published": true,
+      "images": [
+        {
+          "caption": "",
+          "src": "media/HE-figure2 ver small.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/HE-figure3 v small.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/HE-figure4 small.jpg",
+          "filetype": "jpg"
+        }
+      ],
+      "date": "2009 <br> 2nd year design studio",
+      "body": "<p>To understand architectural design in a close-to-body scale. To define a design language through observations of space, body and material. Examine fashion design from an architectural point of view. Two key concepts are focused on throughout the research and design processes: embodied space and tectonics. Students are encouraged to investigate architectural implications of this project, such as lightweight structure and architectural details.</p><p>Work Credits: Leigh Goris, Benjamin Decker, Lauren Cantrell, Ellen Sampson, Heather Sengelmann, Renee Lacroix.<br/></p>"
+    },
+    {
+      "uri": "2009-desk-parasite",
+      "schema": "teaching",
+      "title": "Desk Parasite",
+      "published": "false",
+      "images": [
+        {
+          "caption": "",
+          "src": "media/_MG_3608.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/_MG_3752.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/_MG_3789.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/_MG_3857.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/_MG_3911.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/_MG_3982.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/_MG_4013.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/_MG_4053.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/Paul 04.jpg",
+          "filetype": "jpg"
+        }
+      ],
+      "date": "2009 <br> 1st year design studio",
+      "body": "<p>Work Credit: Sophie Brandon, Christopher Dilworth, Austin Homdwls, Ross McClendon, Daniel Solis, Aubrie Damron, Thomas Bett.<br/></p>"
+    },
+    {
+      "uri": "2009-abstract-seeing",
+      "schema": "teaching",
+      "title": "Abstract Seeing",
+      "published": true,
+      "images": [
+        {
+          "caption": "",
+          "src": "media/Ink blot FINAL.jpg",
+          "filetype": "jpg",
+          "imgClass": "col-md-9"
+        },
+        {
+          "caption": "",
+          "src": "media/2009_610_arnold-final composition.jpg",
+          "filetype": "jpg",
+          "imgClass": "col-md-9"
+        },
+        {
+          "caption": "",
+          "src": "media/pazzel.jpg",
+          "filetype": "jpg",
+          "imgClass": "col-md-9"
+        },
+        {
+          "caption": "",
+          "src": "media/PHotoProject V.C..jpg",
+          "filetype": "jpg",
+          "imgClass": "col-md-9"
+        },
+        {
+          "caption": "",
+          "src": "media/abstract seeing 1.jpg",
+          "filetype": "jpg",
+          "imgClass": "col-md-9"
+        },
+        {
+          "caption": "",
+          "src": "media/Untitled-1.jpg",
+          "filetype": "jpg",
+          "imgClass": "col-md-9"
+        }
+      ],
+      "body": "<p>To understand compositional energy in 2D graphics.<span> Take pictures with compositional ideas. Compose </span><span>parts from the pictures in a 3 by 3 grid.</span></p><p>Work Credits: Arnold Ghil, Maria Nunez, Maryam Rajabali, Richard Bassett, Siavash Bayegan, Stephen Dietert.<br/></p>",
+      "date": "2009 <br> visual communications"
+    },
+    {
+      "uri": "2008-diagram-design-language",
+      "schema": "teaching",
+      "title": "Diagram Design Language",
+      "published": true,
+      "images": [
+        {
+          "caption": "",
+          "src": "media/_MG_5362.jpg",
+          "filetype": "jpg",
+          "imgClass": "col-md-12"
+        },
+        {
+          "caption": "",
+          "src": "media/1 original.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/Final BW.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/Heather_Lola-Analytical-01.jpg",
+          "filetype": "jpg",
+          "imgClass": "col-md-6"
+        },
+        {
+          "caption": "",
+          "src": "media/Heather_Lola-Analytical-02.jpg",
+          "filetype": "jpg",
+          "imgClass": "col-md-6"
+        },
+        {
+          "caption": "",
+          "src": "media/Heather_Lola-Analytical-03.jpg",
+          "filetype": "jpg",
+          "imgClass": "col-md-6"
+        },
+        {
+          "caption": "",
+          "src": "media/img035-1.jpg",
+          "filetype": "jpg",
+          "imgClass": "col-md-6"
+        },
+        {
+          "caption": "",
+          "src": "media/img042.jpg",
+          "filetype": "jpg",
+          "imgClass": "col-md-6"
+        },
+        {
+          "caption": "",
+          "src": "media/img043.jpg",
+          "filetype": "jpg",
+          "imgClass": "col-md-6"
+        },
+        {
+          "caption": "",
+          "src": "media/img046-1.jpg",
+          "filetype": "jpg",
+          "imgClass": "col-md-6"
+        },
+        {
+          "caption": "",
+          "src": "media/lola048.jpg",
+          "filetype": "jpg",
+          "imgClass": "col-md-6"
+        }
+      ],
+      "date": "2008 <br> visual communication"
+    },
+    {
+      "uri": "2008-san-fransisco-transit",
+      "schema": "teaching",
+      "title": "The San Fransisco Transit",
+      "published": true,
+      "images": [
+        {
+          "caption": "",
+          "src": "media/Naresh_site plan.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/Naresh1.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/Naresh1-1-BW.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/Naresh1-2 BW.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/Naresh1-3 BW.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/Naresh1-4 BW.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/Naresh1-5 BW.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/Naresh1-6 BW.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/Naresh1-6.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/Naresh1-7BW.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/Naresh1-8 BW.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/Naresh4.jpg",
+          "filetype": "jpg",
+          "imgClass": "col-md-6"
+        },
+        {
+          "caption": "",
+          "src": "media/Naresh5.jpg",
+          "filetype": "jpg",
+          "imgClass": "col-md-6"
+        },
+        {
+          "caption": "",
+          "src": "media/Naresh6.jpg",
+          "filetype": "jpg",
+          "imgClass": "col-md-6"
+        },
+        {
+          "caption": "",
+          "src": "media/Naresh7.jpg",
+          "filetype": "jpg",
+          "imgClass": "col-md-6"
+        },
+        {
+          "caption": "",
+          "src": "media/Naresh8.jpg",
+          "filetype": "jpg",
+          "imgClass": "col-md-6"
+        },
+        {
+          "caption": "",
+          "src": "media/Naresh9.jpg",
+          "filetype": "jpg",
+          "imgClass": "col-md-6"
+        },
+        {
+          "caption": "",
+          "src": "media/Naresh10.jpg",
+          "filetype": "jpg",
+          "imgClass": "col-md-6"
+        },
+        {
+          "caption": "",
+          "src": "media/Naresh11.jpg",
+          "filetype": "jpg",
+          "imgClass": "col-md-6"
+        }
+      ],
+      "date": "2008 <br> M.Arch thesis",
+      "body": "<p>To incorporate speed as the key element in form-finding processes and design the San Francisco transit.<br/>Work Credit: Naresh Rathi<br/></p>"
+    },
+    {
+      "uri": "2008-cubism-space",
+      "schema": "teaching",
+      "title": "Cubism Space",
+      "published": "false",
+      "images": [
+        {
+          "caption": "",
+          "src": "media/Cubism-Drawing-FINAL.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/IMG_0302-1.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/IMG_0311-2.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/Photo Collage.jpg",
+          "filetype": "jpg"
+        }
+      ],
+      "body": "<p>To study perspectives in relation to the bodily movement. To experiment with 2D compositions. To exercise drawing techniques. Select a space that indicates the absent body. Compose a photo collage of it. The composition should suggest an embodied movement within the space. Draw the composition.</p><p>Work Credits: Heather Davis, Dustin Mattiza. </p><p>Dustin Mattiza’s drawing won the 2nd plance at the Art Fest 2009, Stark Galler in Texas A&amp;M University.</p>",
+      "date": "2008 <br> visual communication"
+    },
+    {
+      "uri": "2008-design-language",
+      "schema": "teaching",
+      "title": "Design Language",
+      "published": "false",
+      "images": [
+        {
+          "caption": "",
+          "src": "media/_MG_5172 small.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/_MG_5180.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/_MG_5200 small.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/_MG_5201.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/_MG_5204 small.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/_MG_5206.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/_MG_5213.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/_MG_5219 small.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/_MG_5256 small.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/_MG_5262 small.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/_MG_5268 small.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/_MG_5276.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/_MG_5282 Small.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/_MG_5293.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/_MG_5322 small.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/_MG_5331 small.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/_MG_5383.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/_MG_5400.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/_MG_5405 small.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/_MG_5423 small.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/b_Aulorie Damyon 01.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/b_Canvas Blue 7.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/b_Canvas Red Alejandro 01.jpg",
+          "filetype": "jpg"
+        }
+      ],
+      "date": "2008 <br> 2nd year design studio",
+      "body": "<p>This project addresses two key concepts: spatial experience and material. Diagramming and transformation are approaches throughout the design process. Create an atmosphere in drawing through applying various movements of the medium. Use 3D compositions to explore a 3D design language that exemplifies the atmosphere.<br/>Work Credits: Sydney Riegel, Cameron Burke, Christina Graveline Luke Rawicki, Stephanie Montes.<br/></p>"
+    },
+    {
+      "uri": "transformers-2",
+      "schema": "teaching",
+      "title": "Transformers",
+      "published": true,
+      "images": [
+        {
+          "caption": "",
+          "src": "media/a_Alejandro Gloria 5.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/a_Emau Vega 01.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/a_Paul 03.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/a_Tommy 02.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/b_Tyler Roses.jpg",
+          "filetype": "jpg",
+          "imgClass": "col-md-6"
+        },
+        {
+          "caption": "",
+          "src": "media/b_Vega 02.jpg",
+          "filetype": "jpg",
+          "imgClass": "col-md-6"
+        }
+      ],
+      "date": "2008 <br> 1st year design studio",
+      "body": "<p>Work Credit: Alejandro Gloria, Emau Vega, Aubrie Damron, Paul Alvarez, Matthew Blankenship.<br/></p>"
+    },
+    {
+      "uri": "2008-transformers",
+      "schema": "teaching",
+      "title": "Transformers",
+      "published": true,
+      "images": [
+        {
+          "caption": "",
+          "src": "media/1_MG_4365.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/1_MG_4367.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/1_MG_4370.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/2_Kevin Primm_03.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/3_Kevin Primm.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/4_MG_4473.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/4_MG_4476.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/4_MG_4481.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/4_MG_4482.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/5_MG_4399.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/5_MG_4409.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/6_MG_4427.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/6_MG_4432_edit.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/6_MG_4435.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/7_Kevin Primm_01.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/Burke Feeling Drawing.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/Burke Feeling Painting.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/Burke Painting 2.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/c_IMG_0948 small.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/c_MG_3972.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/c_MG_4002 small.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/c_MG_4160 small.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/c_MG_4831 small.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/d_MG_4283 small.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/d_MG_4308 new name.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/d_MG_4561.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/d_MG_4634 small.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/d_MG_4770.jpg",
+          "filetype": "jpg"
+        }
+      ],
+      "date": "2008 <br> design foundations II",
+      "body": "<p>To experiment with media outside architecture for the development of architectural ideas. Drawing and sculpture are used to explore the construction of space. Transformations are constantly<br/>carried out for the relationship between mass and voids to evolve. Program also plays an important role in such evolution.<br/>Work Credit: Kevin Primm.<br/></p>"
+    },
+    {
+      "uri": "2008-pov",
+      "schema": "teaching",
+      "title": "Points of View",
+      "published": "false",
+      "images": [
+        {
+          "caption": "",
+          "src": "media/green frame.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/red circle.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/red diamond.jpg",
+          "filetype": "jpg"
+        }
+      ],
+      "date": "2008 <br> 2nd year design studio",
+      "body": "<p>To understand spatial perception in relation to the audience’s movement in space and their visual experiences. To use Felice Varini’s visual language to make a spatial statement in and around the architectural<br/>building of Langford A. Observe a site in terms of perspectives, traffic and spatial conditions. Use overhead projector to determine a desired shape on site. Complete the installation and use video to make a statement of the project.<br/>Work Credits: Heather Harris, Mitch Rocheleau, Paul Alvarez, Sydney Riegel, Cameron Burke, Christina Graveline, Luke Rawicki.<br/></p>"
+    },
+    {
+      "uri": "2007-photographers-gallery-london",
+      "schema": "teaching",
+      "title": "Photographers Gallery In London",
+      "published": "false",
+      "images": [
+        {
+          "caption": "",
+          "src": "media/final studies-McMillin-1.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/final studies-McMillin-2.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/final studies-McMillin-3.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/final studies-McMillin-4.jpg",
+          "filetype": "jpg"
+        }
+      ],
+      "date": "2007 <br> M.Arch thesis",
+      "body": "<p>Conceptually differentiate the experiential from the merely optical in space. A photographer’s gallery is designed to make a statement of such differentiation. The program of the design is a competition. The site is the old Photographer’s Gallery in London.<br/></p><p>Work Credit: David McMilin</p>"
+    },
+    {
+      "uri": "2007-tension",
+      "schema": "teaching",
+      "title": "Tension",
+      "published": "false",
+      "images": [
+        {
+          "caption": "",
+          "src": "media/joint-Pearce-1.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/joint-Pearce-2.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/joint-Pearce-3.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/joint-Pearce-4.jpg",
+          "filetype": "jpg"
+        }
+      ],
+      "date": "2007 <br> directed studies",
+      "body": "<p>Understand the gravity of materials and the mechanism of “joining.” Understand how a structure is stabilized through balancing the inner forces among which the joint becomes the negotiator. Joints are used as the generator of the overall structure.<br/>Work Credit: David Pearce.<br/></p>"
+    },
+    {
+      "uri": "2007-space-in-sections",
+      "schema": "teaching",
+      "title": "Space in Sections",
+      "published": "false",
+      "images": [
+        {
+          "caption": "",
+          "src": "media/sections.jpg",
+          "filetype": "jpg"
+        }
+      ],
+      "date": "2007 <br> foundation design studio",
+      "body": "<p>To use section as an analytical tool of space and an experimental tool to design space. Cut sequential sections of a space; compose the drawing to explore the flow of the space and to discover new space within the juxtaposition of section drawings.</p><p>Work Credit: Jon-Michael Clothier.<br/></p>"
+    },
+    {
+      "uri": "2007-from-painting-to-space",
+      "schema": "teaching",
+      "title": "From Painting to Space",
+      "published": "false",
+      "images": [
+        {
+          "caption": "",
+          "src": "media/Drawing.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/Heather painting.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/painting space.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/Painting.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/slr205painting1.jpg",
+          "filetype": "jpg"
+        }
+      ],
+      "date": "2007 <br> design foundations II",
+      "body": "<p>To understand spatial characters. Spatial characters may include opposites, such as openness versus closeness, and transparency versus opacity. Spatial characters may also indicate how space is constructed, such as slicing, overlapping, tearing, carving and molding. To translate visual characters in painting into spatial characters in space.<br/>Work Credits: Jennifer Albrecht, Jeffrey Heaton.<br/><br/></p>"
+    },
+    {
+      "uri": "2007-folding-space",
+      "schema": "teaching",
+      "title": "Folding Space",
+      "published": "false",
+      "images": [
+        {
+          "caption": "",
+          "src": "media/folding space1-a1.jpg",
+          "filetype": "jpg",
+          "imgClass": "col-md-6"
+        },
+        {
+          "caption": "",
+          "src": "media/folding space1-a2.jpg",
+          "filetype": "jpg",
+          "imgClass": "col-md-6"
+        },
+        {
+          "caption": "",
+          "src": "media/folding space1-a3.jpg",
+          "filetype": "jpg",
+          "imgClass": "col-md-6"
+        },
+        {
+          "caption": "",
+          "src": "media/folding space1-b1.jpg",
+          "filetype": "jpg",
+          "imgClass": "col-md-6"
+        },
+        {
+          "caption": "",
+          "src": "media/folding space1-b2.jpg",
+          "filetype": "jpg",
+          "imgClass": "col-md-6"
+        },
+        {
+          "caption": "",
+          "src": "media/folding space1-b3.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/folding space1-b4.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/folding space2-a1.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/folding space2-a2.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/folding space2-b1.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/folding space2-b2.jpg",
+          "filetype": "jpg"
+        }
+      ],
+      "date": "2007<br> design foundations I",
+      "body": "<p>Understand the tranformation from a 2D surface to a 3D space and the transition from interior space/surface to exterior space/surface. Understand the form of space is also a result of construction material. Fold a space to create interior space. Extend the interior space to exterior and construct a “site.” Use both surface material and linear material to construct the space. Observe how the form of space reacts to the use of different materials.</p><p>Work Credits: Eric Gallegos, Alyssa Parker.<br/></p>"
+    },
+    {
+      "uri": "2006-shape-grammars",
+      "schema": "teaching",
+      "title": "Shape Grammars",
+      "published": "false",
+      "images": [
+        {
+          "caption": "",
+          "src": "media/shape grammars-1.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/shape grammars-2.jpg",
+          "filetype": "jpg"
+        }
+      ],
+      "date": "2006 <br> 2nd year design studio",
+      "body": "<p>The elements of architecture can be understood in terms of vocabulary and grammars. This is not only a formal understanding of space but also a constructive understanding of space. New designs of the same family can be generated through the constructive process defined by vocabulary and grammars. Analyse a house; define its design langauge; use the language to design a new house.<br/>Work Credits: Natalie Pittman, Ashlee Wilson.<br/></p>"
+    },
+    {
+      "uri": "2006-rythmic-space",
+      "schema": "teaching",
+      "title": "Rythmic Space",
+      "published": "false",
+      "images": [
+        {
+          "caption": "",
+          "src": "media/rhythmic space1.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/rhythmic space2-1.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/rhythmic space2-2.jpg",
+          "filetype": "jpg"
+        }
+      ],
+      "date": "2006 <br> design foundations I",
+      "body": "<p>Understand and construct rhythm in space by using proportion systems and spatial characters as carriers of spatial rhythm. Potential spatial characters are openness versus closeness, narrowness versus wideness, and seeing through versus blocked view. A space transformed from a 16’ x 20’ x 40’ volume.</p><p>Work Credits: Benjamin Hunsaker, Blake Loyd, Mack Henderson, John Byler, Lauren Mccullough, Matthew Deering, Hannah Haese, Ashley McGarity, Joshua Hinkle.</p>"
+    },
+    {
+      "schema": "teaching",
+      "uri": "2006-fascade",
+      "title": "Fascade Depth",
+      "body": "<p>To use charcoal drawing as a representation tool and to explore variations in charcoal rendering techniques. Study the façade of basilica and use charcoal to represent the proportion and the depth of space. Each student draws one bay of the facade in three pieces of 18” by 24” paper. The work of the class composes the whole. This project won the Jury’s Choice Award at the Exhibition of the Bi-annual Meeting of the Design Communication Association, Ball State University, Indiana.</p><p>Work Credits: Yujung Jang, Tina Chanady, Ann Frankovich, David Seifert, Chad Garven, and Career Change Class of 2006.</p>",
+      "published": true,
+      "images": [
+        {
+          "caption": "",
+          "src": "media/basilica-small.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/basilica2.jpg",
+          "filetype": "jpg"
+        }
+      ],
+      "date": "2006, 2005 <br> visual communication"
+    },
+    {
+      "uri": "2006-perspective",
+      "schema": "teaching",
+      "title": "Perspective",
+      "published": "false",
+      "images": [
+        {
+          "caption": "",
+          "src": "media/perspective-Moon-1.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/perspective-Moon-2.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/perspective-Moon-3.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/perspective-Moon-4.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/perspective-Moon-5.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/perspective-Moon-6.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/perspective-Moon-7.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/perspective-Moon-8.jpg",
+          "filetype": "jpg"
+        }
+      ]
+    },
+    {
+      "uri": "2006-music-space",
+      "schema": "teaching",
+      "title": "Music Space",
+      "published": "false",
+      "images": [
+        {
+          "caption": "",
+          "src": "media/Music_Seifert-1.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/Music_Seifert-2.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/Music_Seifert-3.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/Music_Seifert-4.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/Music_Seifert-5.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/Music_Seifert-6.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/Music_Seifert-7.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/Music_Seifert-8.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/Music_Seifert-9.jpg",
+          "filetype": "jpg"
+        }
+      ],
+      "date": "2006"
+    },
+    {
+      "uri": "2006-cubism-space",
+      "schema": "teaching",
+      "title": "Cubism Space",
+      "published": "false",
+      "images": [
+        {
+          "caption": "",
+          "src": "media/mechnical space-1.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/mechnical space-2.jpg",
+          "filetype": "jpg"
+        }
+      ]
+    },
+    {
+      "uri": "2006-pov",
+      "schema": "teaching",
+      "title": "Points of View",
+      "published": true,
+      "images": [
+        {
+          "caption": "",
+          "src": "media/varini PRJ-1.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/varini PRJ-2.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/varini PRJ-3.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/varini PRJ-4.jpg",
+          "filetype": "jpg"
+        }
+      ],
+      "date": "2006 <br> 2nd year design studio",
+      "body": "<p>This is a project based on Felice Varini’s visual language. The project is to understand how the form of a 2D shape compresses the 3D space as well as how the 3D space fragments the 2D shape. Use “flat” shapes to make a statement of the space of the architecture building at Texas A&amp;M University.<br/>Work Credits: Ashley Martin, Amanda Haby, Nick Thorn, Townsand Brown, Amanda Haas, Reiley Parnell, Natalie Pittman, Kara Wren.<br/></p>"
+    },
+    {
+      "uri": "2005-narrative-space",
+      "schema": "teaching",
+      "title": "Narrative Space",
+      "published": "false",
+      "images": [
+        {
+          "caption": "",
+          "src": "media/narrative space-1.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/narrative space-2.jpg",
+          "filetype": "jpg"
+        },
+        {
+          "caption": "",
+          "src": "media/narrative space-3.jpg",
+          "filetype": "jpg"
+        }
+      ],
+      "date": "2005 <br> career change design studio",
+      "body": "<p>This is a comprehensive project that happens at the end of the course. The objective of the project is to use visual communication tools as a design vehicle. Design a passage space based on the narrative of a film. The design process includes diagramming, drawing manipulation, space exploration and statement.<br/>Work Credits: Amanda Scott, Bruce Baxter, Chad Garven.</p>"
+    }
+  ]
+}

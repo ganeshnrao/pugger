@@ -1,0 +1,20 @@
+extends base.pug
+
+block content
+  .ah-project
+    .container.ah-project-item
+      .row
+        .col-md-6.ah-project-body
+          h2!= page.title
+          span.ah-date!= page.date
+          .ah-caption!= page.caption
+          div!= page.body
+    .container
+      each image in page.images
+        .ah-project-image
+          .row
+            div(class=`${image.imgClass || "col-md-6"}`)
+              img(src=image.src)
+              .ah-image-info
+                p.ah-image-title!= image.title
+                p.ah-image-caption!= image.caption
