@@ -11,7 +11,7 @@ const args = require("yargs").options({
     default: "config.js"
   }
 }).argv;
-const config = require(path.resolve(__dirname, args.config));
+const config = require(path.resolve(args.config));
 const site = require(config.paths.site);
 
 const srcDir = config.paths.src;
