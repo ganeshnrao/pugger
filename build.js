@@ -3,6 +3,7 @@ const path = require("path");
 const fs = require("fs-extra");
 const Promise = require("bluebird");
 const sassRender = Promise.promisify(require("node-sass").render);
+const replaceAll = require("replaceall");
 const args = require("yargs").options({
   config: {
     type: "string",
@@ -16,10 +17,12 @@ const site = require(config.paths.site);
 const srcDir = config.paths.src;
 const templateDir = config.paths.templates;
 const distDir = config.paths.dist;
+const distStylesDir = config.paths.distStyles;
+const distScriptsDir = config.paths.distScripts;
 const indexFileName = "index";
 const templateCacheMap = new Map();
-const assetRegex = config.assetRegex || /\/assets\/[a-z0-9-_.]+/gim;
-const assetCacheSet = new Set();
+const assetRegex = config.assetRegex || /\/assets\/[a-z0-9-_.&]+/gim;
+const assetCacheMap = new Map();
 
 async function getTemplate(templateName) {
   if (!templateCacheMap.has(templateName)) {
@@ -36,11 +39,13 @@ async function getTemplate(templateName) {
 async function processTasks({
   name = "",
   items = [],
-  showAllErrors = false,
+  showAllErrors = true,
   processor = async () => {}
 }) {
+  const startMs = Date.now();
   let nSuccess = 0;
-  let nErrors = 0;
+  const errors = [];
+  const taskPrefix = `Task ${name.padStart(16)}`;
   await Promise.map(
     items,
     item =>
@@ -48,21 +53,22 @@ async function processTasks({
         .then(() => {
           nSuccess += 1;
         })
-        .catch(error => {
-          nErrors += 1;
-          if (showAllErrors) {
-            console.error(error.stack);
-          }
-        }),
+        .catch(error => errors.push(error)),
     { concurrency: config.buildConcurrency || 10 }
   );
   console.log(
     [
-      `Task ${name.padStart(16)}`,
+      taskPrefix,
       `Success ${String(nSuccess).padStart(4)}`,
-      `Errors ${String(nErrors).padStart(4)}`
+      `Errors ${String(errors.length).padStart(4)}`,
+      `Duration ${String(Date.now() - startMs).padStart(6)}ms`
     ].join(" | ")
   );
+  if (showAllErrors && errors.length) {
+    errors.forEach(error =>
+      console.error([taskPrefix, error.stack].join(" | "))
+    );
+  }
 }
 
 function getOutputPathsForPage(uri) {
@@ -75,9 +81,29 @@ function getOutputPathsForPage(uri) {
   };
 }
 
+function sanitizeName(name, ext) {
+  const cleanName = name
+    .replace(/[^a-z0-9]/gi, " ")
+    .trim()
+    .split(/\s+/)
+    .join("-");
+  return `${cleanName}${ext}`.toLowerCase();
+}
+
 function scrapeContentForAssets(content) {
+  let result = content;
   const assets = content.match(assetRegex) || [];
-  assets.forEach(src => assetCacheSet.add(src));
+  assets.forEach(inputPath => {
+    if (!assetCacheMap.has(inputPath)) {
+      const { dir, name, ext } = path.parse(inputPath);
+      const cleanName = sanitizeName(name, ext);
+      const outputPath = path.resolve(dir, cleanName);
+      assetCacheMap.set(inputPath, outputPath);
+    }
+    const outputPath = assetCacheMap.get(inputPath);
+    result = replaceAll(inputPath, outputPath, result);
+  });
+  return result;
 }
 
 async function build() {
@@ -85,10 +111,12 @@ async function build() {
     name: "Compile pages",
     items: site.pages,
     async processor(page) {
+      if (page.skipCompile) {
+        return;
+      }
       const template = await getTemplate(page.template);
       const { outputFilePath, outputFileDir } = getOutputPathsForPage(page.uri);
-      const html = template({ page, site });
-      scrapeContentForAssets(html);
+      const html = scrapeContentForAssets(template({ page, site }));
       await fs.ensureDir(outputFileDir);
       await fs.writeFile(outputFilePath, html);
     }
@@ -99,27 +127,37 @@ async function build() {
     async processor(stylePath) {
       const { name } = path.parse(stylePath);
       const inputPath = stylePath;
-      const outputPath = path.resolve(config.paths.distStyles, `${name}.css`);
+      const outputPath = path.resolve(`${distStylesDir}/${name}.css`);
       const result = await sassRender({
         file: path.resolve(inputPath),
         outputStyle: "compressed"
       });
-      const css = result.css.toString();
+      const css = scrapeContentForAssets(result.css.toString());
       const { dir } = path.parse(outputPath);
       await fs.ensureDir(dir);
       await fs.writeFile(outputPath, css);
-      scrapeContentForAssets(css);
+    }
+  });
+  await processTasks({
+    name: "Compile scripts",
+    items: config.scripts,
+    async processor(scriptPath) {
+      const { name } = path.parse(scriptPath);
+      const outputPath = path.resolve(`${distScriptsDir}/${name}.js`);
+      const { dir } = path.parse(outputPath);
+      await fs.ensureDir(dir);
+      await fs.copyFile(scriptPath, outputPath);
     }
   });
   await processTasks({
     name: "Copy assets",
-    items: Array.from(assetCacheSet),
-    async processor(assetSrc) {
-      const srcFilePath = path.resolve(`${srcDir}/${assetSrc}`);
-      const destFilePath = path.resolve(`${distDir}/${assetSrc}`);
-      const { dir } = path.parse(destFilePath);
+    items: Array.from(assetCacheMap),
+    async processor([inputPath, outputPath]) {
+      const srcPath = path.resolve(`${srcDir}/${inputPath}`);
+      const destPath = path.resolve(`${distDir}/${outputPath}`);
+      const { dir } = path.parse(destPath);
       await fs.ensureDir(dir);
-      await fs.copyFile(srcFilePath, destFilePath);
+      await fs.copyFile(srcPath, destPath);
     }
   });
 }
