@@ -21,3 +21,7 @@ block content
                 each image in news.images
                   img(src=image.src)
                   span.ah-news-image-caption!= image.caption
+
+block scripts
+  script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js")
+  script(src="/scripts/app.js")

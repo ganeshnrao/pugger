@@ -42,6 +42,9 @@ const pages = [
       page.template =
         page.schema === "teaching" ? "project.pug" : `${page.schema}.pug`;
     }
+    if (page.schema === "news") {
+      page.skipCompile = true;
+    }
     page.images.forEach(image => {
       image.src = `/${image.src}`;
     });

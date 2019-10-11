@@ -27,3 +27,4 @@ html
             .ah-menu
               each p in site.pages.filter(p => p.schema === "article")
                 a.ah-menu-item(href=p.uri class=`${p === page ? "active" : ""}`)= p.title
+    block scripts

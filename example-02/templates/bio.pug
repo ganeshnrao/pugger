@@ -3,7 +3,7 @@ extends base.pug
 block content
   .container.ah-banner
     .ah-slideshow
-      .ah-slideshow-item(style=`background-image:url("${page.images[0].src}")`)
+      .ah-slideshow-item.active(style=`background-image:url("${page.images[0].src}")`)
   .container.ah-section
     .row
       .col-md-5.col-md-offset-4.ah-body-copy!= page.body
