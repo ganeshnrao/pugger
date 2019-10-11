@@ -5,4 +5,4 @@ block content
   .content= page.body
   .attachments
     each attachment in page.attachments || []
-      img(src=attachment.src alt=attachment.title width="200")
+      img(src=attachment.src alt=attachment.title)

@@ -8,9 +8,11 @@ module.exports = {
     assets: path.resolve(__dirname, "assets"),
     templates: path.resolve(__dirname, "templates"),
     site: path.resolve(__dirname, "site.js"),
-    dist: path.resolve(__dirname, "../dist"),
-    distAssets: path.resolve(__dirname, "../dist/assets"),
-    distStyles: path.resolve(__dirname, "../dist/styles")
+    dist: path.resolve(__dirname, "dist"),
+    distAssets: path.resolve(__dirname, "dist/assets"),
+    distStyles: path.resolve(__dirname, "dist/styles"),
+    distScripts: path.resolve(__dirname, "dist/scripts")
   },
-  styles: [path.resolve(__dirname, "styles", "main.scss")]
+  styles: [path.resolve(__dirname, "styles", "main.scss")],
+  scripts: [path.resolve(__dirname, "scripts", "app.js")]
 };
