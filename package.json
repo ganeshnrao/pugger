@@ -1,5 +1,5 @@
 {
-  "name": "static-pug-site",
+  "name": "pugger",
   "version": "1.0.0",
   "description": "A static website generator using pug templates and a data file",
   "main": "build.js",
