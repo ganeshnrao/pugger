@@ -1,5 +1,4 @@
 const path = require("path");
-const Assets = require("./Assets");
 const Config = require("./Config");
 const { createTimer } = require("log-row");
 const { Promise, logger, row, processTasks, writeFile } = require("./utils");
@@ -20,17 +19,15 @@ module.exports = () => {
         file: path.resolve(srcPath),
         outputStyle: "compressed"
       });
-      const { result, nAssets } = Assets.transform(css.toString());
       logger.debug(
         row({
           prefix,
           srcPath: Config.relativeSrc(srcPath),
           destPath: Config.relativeDist(destPath),
-          nAssets,
           duration
         })
       );
-      await writeFile(destPath, result);
+      await writeFile(destPath, css.toString());
     }
   });
 };

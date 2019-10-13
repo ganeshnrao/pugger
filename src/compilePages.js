@@ -1,7 +1,6 @@
 const path = require("path");
 const Config = require("./Config");
 const Templates = require("./Templates");
-const Assets = require("./Assets");
 const { createTimer } = require("log-row");
 const { row, logger, processTasks, writeFile } = require("./utils");
 
@@ -26,9 +25,7 @@ module.exports = () => {
       );
       const destPath = getPageDestPath(config.paths.dist, page.uri);
       const template = await Templates.load(templatePath);
-      const { result: html, nAssets } = Assets.transform(
-        template({ page, site: config.site })
-      );
+      const html = template({ page, site: config.site });
       await writeFile(destPath, html);
       const srcPath = `${page.id || page.uri} (${page.template})`;
       logger.debug(
@@ -36,7 +33,6 @@ module.exports = () => {
           prefix,
           srcPath,
           destPath: Config.relativeDist(destPath),
-          nAssets,
           duration
         })
       );
