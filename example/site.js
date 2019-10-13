@@ -1,6 +1,7 @@
 module.exports = {
   pages: [
     {
+      id: "hello",
       uri: "/",
       title: "Hello",
       template: "page.pug",
@@ -8,6 +9,7 @@ module.exports = {
       body: "Hello world"
     },
     {
+      id: "works",
       uri: "/works",
       title: "Works",
       template: "works.pug",
@@ -15,6 +17,7 @@ module.exports = {
       body: "Catalog of recent work"
     },
     {
+      id: "foobar",
       uri: "/works/foobar",
       title: "FooBar",
       type: "work",
@@ -26,6 +29,7 @@ module.exports = {
       ]
     },
     {
+      id: "fizzbuzz",
       uri: "/works/fizzbuzz",
       title: "FizzBuzz",
       type: "work",

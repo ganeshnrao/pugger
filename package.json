@@ -2,15 +2,17 @@
   "name": "pugger",
   "version": "1.0.0",
   "description": "A static website generator using pug templates and a data file",
-  "main": "build.js",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build-example": "node index.js --config example/pugger.config.js"
   },
   "author": "ganeshnrao@me.com",
   "license": "ISC",
   "dependencies": {
+    "ajv": "^6.10.2",
     "bluebird": "^3.7.0",
     "fs-extra": "^8.1.0",
+    "log-row": "^2.0.3",
     "node-sass": "^4.12.0",
     "pug": "^2.0.4",
     "replaceall": "^0.1.6",
