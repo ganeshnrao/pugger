@@ -7,6 +7,22 @@
     "build-example": "node index.js --config example/src/pugger.config.js",
     "serve-example": "php -S localhost:1920 -t example/dist"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ganeshnrao/pugger.git"
+  },
+  "keywords": [
+    "pug",
+    "generator",
+    "static",
+    "website",
+    "site",
+    "blogging",
+    "sass"
+  ],
+  "bin": {
+    "pugger": "index.js"
+  },
   "author": "ganeshnrao@me.com",
   "license": "ISC",
   "dependencies": {
