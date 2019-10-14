@@ -11,6 +11,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "pugger": "^1.0.1"
+    "pugger": "^1.0.4"
   }
 }
