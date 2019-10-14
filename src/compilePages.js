@@ -19,6 +19,9 @@ module.exports = () => {
     prefix,
     items: config.site.pages,
     async processor(page) {
+      if (!page.template || page.skipCompile) {
+        return;
+      }
       const duration = createTimer();
       const templatePath = path.resolve(
         `${config.paths.templates}/${page.template}`
