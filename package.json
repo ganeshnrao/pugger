@@ -1,6 +1,6 @@
 {
   "name": "pugger",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A static website generator using pug templates and a data file",
   "main": "index.js",
   "scripts": {
