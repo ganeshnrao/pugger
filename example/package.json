@@ -1,0 +1,16 @@
+{
+  "name": "example-pugger-site",
+  "version": "1.0.0",
+  "description": "An example of using Pugger to build a static website",
+  "main": "index.js",
+  "scripts": {
+    "build": "node node_modules/pugger --config src/pugger.config.js",
+    "serve": "php -S localhost:1920 -t dist"
+  },
+  "private": true,
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pugger": "^1.0.1"
+  }
+}

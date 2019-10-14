@@ -1,7 +1,6 @@
 const path = require("path");
 const fs = require("fs-extra");
-const { Promise, logger } = require("./utils");
-const ncp = Promise.promisify(require("ncp").ncp);
+const { ncp, logger } = require("./utils");
 const Config = require("./Config");
 
 module.exports = async () => {

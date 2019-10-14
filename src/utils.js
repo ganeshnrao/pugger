@@ -3,6 +3,7 @@ const fs = require("fs-extra");
 const path = require("path");
 const { logRow } = require("log-row");
 const Ajv = require("ajv");
+const ncp = Promise.promisify(require("ncp").ncp);
 
 const ajv = new Ajv({
   coerceTypes: "array",
@@ -86,13 +87,25 @@ async function copyFile(srcPath, destPath) {
   await fs.copyFile(srcPath, destPath);
 }
 
+function sanitizeName(filename) {
+  const { name, ext } = path.parse(filename);
+  const cleanName = name
+    .replace(/[^a-z0-9]/gi, " ")
+    .trim()
+    .split(/\s+/)
+    .join("-");
+  return `${cleanName}${ext}`.toLowerCase();
+}
+
 module.exports = {
   Promise,
   logger,
   row,
   ajv,
+  ncp,
   processTasks,
   getValidator,
   writeFile,
-  copyFile
+  copyFile,
+  sanitizeName
 };

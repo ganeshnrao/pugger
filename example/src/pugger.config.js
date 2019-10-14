@@ -1,7 +1,7 @@
 const path = require("path");
 
 const src = path.resolve(__dirname);
-const dist = path.resolve(__dirname, "dist");
+const dist = path.resolve(__dirname, "..", "dist");
 
 module.exports = {
   paths: {

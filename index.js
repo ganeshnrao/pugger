@@ -8,7 +8,8 @@ if (require.main === module) {
     init: {
       type: "string",
       default: "",
-      description: "Name of site to generate"
+      description:
+        "Name of site to generate, no spaces alphanumeric with dashes, e.g. give-me-pugger"
     },
     config: {
       type: "string",
@@ -21,11 +22,9 @@ if (require.main === module) {
       default: false
     }
   }).argv;
-  if (init) {
-    return initSite(init);
-  }
   logger.toggleDebug(debug);
-  build(config).catch(error => {
+  const action = init ? initSite(init) : build(config);
+  action.catch(error => {
     logger.error(error.stack);
     process.exit(1);
   });
