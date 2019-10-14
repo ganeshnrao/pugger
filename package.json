@@ -4,7 +4,8 @@
   "description": "A static website generator using pug templates and a data file",
   "main": "index.js",
   "scripts": {
-    "build-example": "node index.js --config example/pugger.config.js"
+    "build-example": "node index.js --config example/pugger.config.js",
+    "serve-example": "php -S localhost:1920 -t example/dist"
   },
   "author": "ganeshnrao@me.com",
   "license": "ISC",
@@ -13,6 +14,7 @@
     "bluebird": "^3.7.0",
     "fs-extra": "^8.1.0",
     "log-row": "^2.0.3",
+    "ncp": "^2.0.0",
     "node-sass": "^4.12.0",
     "pug": "^2.0.4",
     "replaceall": "^0.1.6",

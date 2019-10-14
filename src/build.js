@@ -2,6 +2,7 @@ const Config = require("./Config");
 const compilePages = require("./compilePages");
 const compileStyles = require("./compileStyles");
 const compileScripts = require("./compileScripts");
+const copyAssets = require("./copyAssets");
 const { createTimer } = require("log-row");
 const { Promise, logger } = require("./utils");
 
@@ -11,11 +12,11 @@ module.exports = async config => {
   const result = await Promise.props({
     page: compilePages(),
     style: compileStyles(),
-    script: compileScripts()
+    script: compileScripts(),
+    assets: copyAssets()
   });
-  const results = { ...result };
-  Object.keys(results).forEach(key => {
-    const { success, errors } = results[key];
+  Object.keys(result).forEach(key => {
+    const { success, errors } = result[key];
     const errorMessage = errors ? `, ${errors} error(s) occurred.` : "";
     logger.log(`Processed ${success} ${key}(s) ${errorMessage}`);
   });

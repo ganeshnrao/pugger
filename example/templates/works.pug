@@ -1,9 +1,0 @@
-extends base.pug
-
-block content
-  h1= page.title
-  .body= page.body
-  ul
-    each work in site.pages.filter(p => p.type === "work")
-      li
-        a(href=work.uri)= work.title

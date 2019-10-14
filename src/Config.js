@@ -8,9 +8,6 @@ function init(input) {
     config = typeof input === "string" ? require(path.resolve(input)) : input;
     Schemas.config(config);
   }
-  config.assetRegex = config.assetRegex
-    ? new RegExp(config.assetRegex.pattern, config.assetRegex.flags)
-    : /\/assets\/[a-z0-9-_.\s]+/gim;
 }
 
 function get() {

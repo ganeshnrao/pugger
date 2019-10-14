@@ -9,7 +9,6 @@ module.exports = {
     assets: path.resolve(src, "assets"),
     templates: path.resolve(src, "templates"),
     dist,
-    distAssets: path.resolve(dist, "assets"),
     distStyles: path.resolve(dist, "styles"),
     distScripts: path.resolve(dist, "scripts")
   },

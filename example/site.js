@@ -5,37 +5,16 @@ module.exports = {
       uri: "/",
       title: "Hello",
       template: "page.pug",
-      type: "page",
-      body: "Hello world"
+      body:
+        "This is a simple website created using Pugger. To get started, start editing the <code>site.js</code> file."
     },
     {
-      id: "works",
-      uri: "/works",
-      title: "Works",
-      template: "works.pug",
-      type: "page",
-      body: "Catalog of recent work"
-    },
-    {
-      id: "foobar",
-      uri: "/works/foobar",
-      title: "FooBar",
-      type: "work",
+      id: "about",
+      uri: "/about",
+      title: "About",
       template: "page.pug",
-      body: "About project FooBar",
-      attachments: [
-        { title: "Image 1", src: "/assets/image-01.jpg" },
-        { title: "Image 2", src: "/assets/image-02.jpg" }
-      ]
-    },
-    {
-      id: "fizzbuzz",
-      uri: "/works/fizzbuzz",
-      title: "FizzBuzz",
-      type: "work",
-      template: "page.pug",
-      body: "About project FizzBuzz",
-      attachments: [{ title: "Image 2", src: "/assets/image-02.jpg" }]
+      body: "This page shows an example of loading images from the assets folder. Make sure that all your assets start with the <code>/assets/</code> prefix.",
+      attachments: [{ title: "Image", src: "/assets/image-01.jpg" }]
     }
   ]
 };

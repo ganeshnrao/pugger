@@ -1,8 +1,19 @@
-extends base.pug
-
-block content
-  h1= page.title
-  .content= page.body
-  .attachments
-    each attachment in page.attachments || []
-      img(src=attachment.src alt=attachment.title)
+block variables
+html
+  head
+    title= page.title
+    link(rel="stylesheet", href="/styles/main.css")
+  body
+    nav
+      ul
+        each p in site.pages
+          li
+            a(href=p.uri)!= p.title
+    block content
+      h1!= page.title
+      .content!= page.body
+      .attachments
+        each attachment in page.attachments || []
+          img(src=attachment.src alt=attachment.title)
+    block scripts
+      script(src="/scripts/app.js")

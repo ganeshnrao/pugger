@@ -1,9 +1,15 @@
 const yargs = require("yargs");
 const build = require("./src/build");
+const initSite = require("./src/init");
 const { logger } = require("./src/utils");
 
 if (require.main === module) {
-  const { config, debug } = yargs.options({
+  const { init, config, debug } = yargs.options({
+    init: {
+      type: "string",
+      default: "",
+      description: "Name of site to generate"
+    },
     config: {
       type: "string",
       description: "Path to the config file",
@@ -15,6 +21,9 @@ if (require.main === module) {
       default: false
     }
   }).argv;
+  if (init) {
+    return initSite(init);
+  }
   logger.toggleDebug(debug);
   build(config).catch(error => {
     logger.error(error.stack);

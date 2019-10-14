@@ -7,22 +7,6 @@ module.exports = {
     type: "object",
     required: ["paths", "site"],
     properties: {
-      buildConcurrency: { type: "number", default: 10 },
-      assetRegex: {
-        type: "object",
-        required: ["pattern", "flags"],
-        properties: {
-          pattern: {
-            type: "string",
-            format: "regex",
-            default: "\\/assets\\/[a-z0-9-_.\\s]+"
-          },
-          flags: {
-            type: "string",
-            default: "igm"
-          }
-        }
-      },
       paths: {
         type: "object",
         required: [
@@ -30,7 +14,6 @@ module.exports = {
           "templates",
           "dist",
           "distStyles",
-          "distAssets",
           "distScripts"
         ],
         properties: {
@@ -38,7 +21,6 @@ module.exports = {
           templates: uri,
           dist: uri,
           distStyles: uri,
-          distAssets: uri,
           distScripts: uri
         }
       },
