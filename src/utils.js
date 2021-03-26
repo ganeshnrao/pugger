@@ -12,7 +12,7 @@ const ajv = new Ajv({
 });
 
 const logger = { ...console };
-logger.toggleDebug = enable => {
+logger.toggleDebug = (enable) => {
   if (enable) {
     logger.debug = console.debug;
   } else {
@@ -23,8 +23,9 @@ logger.toggleDebug = enable => {
 const row = logRow({
   columns: [
     { key: "prefix", label: null, width: 7, align: "left" },
-    { key: "srcPath", label: "src", width: 40, align: "left" },
-    { key: "destPath", label: "dest", width: 40, align: "left" },
+    { key: "id", label: "id", width: 60, align: "left" },
+    { key: "template", width: 30, align: "left" },
+    { key: "destPath", label: "dest", width: 80, align: "left" },
     {
       key(obj) {
         return `${obj.duration || 0}ms`;
@@ -32,6 +33,7 @@ const row = logRow({
       label: null,
       width: 6
     },
+    { key: "status", width: 40, align: "left" },
     { key: "error.stack", label: null }
   ]
 });
@@ -52,18 +54,18 @@ async function processTasks({
         .then(() => {
           success += 1;
         })
-        .catch(error => errors.push(error)),
+        .catch((error) => errors.push(error)),
     { concurrency }
   );
   if (showAllErrors && errors.length) {
-    errors.forEach(error => logger.error(row({ prefix, error })));
+    errors.forEach((error) => logger.error(row({ prefix, error })));
   }
   return { success, errors: errors.length };
 }
 
 function getValidator(dataVar = "data", schema) {
   const validate = ajv.compile(schema);
-  return obj => {
+  return (obj) => {
     const isValid = validate(obj);
     if (!isValid) {
       throw new Error(

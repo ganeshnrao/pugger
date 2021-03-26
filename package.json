@@ -4,7 +4,7 @@
   "description": "A static website generator using pug templates and a data file",
   "main": "index.js",
   "scripts": {
-    "build-example": "node index.js --config example/src/pugger.config.js",
+    "build-example": "node index.js --config example/src/pugger.config.js --debug",
     "serve-example": "php -S localhost:1920 -t example/dist"
   },
   "repository": {
