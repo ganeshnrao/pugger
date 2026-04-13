@@ -8,6 +8,8 @@ To install Pugger globally do the following.
 ```bash
 npm install pugger --global
 ```
+Pugger supports Node.js 24.
+
 Once you've installed Pugger globally, you can generate sites as shown below.
 ```bash
 # initialize a site named foo-bar

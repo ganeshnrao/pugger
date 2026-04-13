@@ -1,24 +1,21 @@
-const path = require("path");
-const Config = require("./Config");
-const { createTimer } = require("log-row");
-const { Promise, logger, row, processTasks, writeFile } = require("./utils");
-const sassRender = Promise.promisify(require("node-sass").render);
+const path = require('path')
+const sass = require('sass')
+const Config = require('./Config')
+const { createTimer } = require('log-row')
+const { logger, row, processTasks, writeFile } = require('./utils')
 
-const prefix = "styles";
+const prefix = 'styles'
 
 module.exports = () => {
-  const config = Config.get();
+  const config = Config.get()
   return processTasks({
     prefix,
     items: config.styles,
     async processor(srcPath) {
-      const duration = createTimer();
-      const { name } = path.parse(srcPath);
-      const destPath = path.resolve(`${config.paths.distStyles}/${name}.css`);
-      const { css } = await sassRender({
-        file: path.resolve(srcPath),
-        outputStyle: "compressed"
-      });
+      const duration = createTimer()
+      const { name } = path.parse(srcPath)
+      const destPath = path.resolve(`${config.paths.distStyles}/${name}.css`)
+      const { css } = await sass.compileAsync(path.resolve(srcPath), { style: 'compressed' })
       logger.debug(
         row({
           prefix,
@@ -26,8 +23,8 @@ module.exports = () => {
           destPath: Config.relativeDist(destPath),
           duration
         })
-      );
-      await writeFile(destPath, css.toString());
+      )
+      await writeFile(destPath, css.toString())
     }
-  });
-};
+  })
+}

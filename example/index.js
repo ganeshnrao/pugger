@@ -1,1 +1,1 @@
-require("pugger")("src/pugger.config.js");
+require('pugger')('src/pugger.config.js')

@@ -1,11 +1,12 @@
 {
   "name": "pugger",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "A static website generator using pug templates and a data file",
   "main": "index.js",
   "scripts": {
     "build-example": "node index.js --config example/src/pugger.config.js --debug",
-    "serve-example": "php -S localhost:1920 -t example/dist"
+    "serve-example": "serve example/dist",
+    "lint": "eslint --fix ."
   },
   "repository": {
     "type": "git",
@@ -23,6 +24,9 @@
   "bin": {
     "pugger": "index.js"
   },
+  "engines": {
+    "node": ">=18"
+  },
   "author": "ganeshnrao@me.com",
   "license": "ISC",
   "dependencies": {
@@ -31,13 +35,13 @@
     "fs-extra": "^8.1.0",
     "log-row": "^2.0.3",
     "ncp": "^2.0.0",
-    "node-sass": "^4.14.1",
     "pug": "^3.0.2",
     "replaceall": "^0.1.6",
+    "sass": "^1.93.2",
     "yargs": "^14.2.0"
   },
   "devDependencies": {
-    "eslint": "^6.5.1",
-    "prettier": "^1.18.2"
+    "eslint": "^10.2.0",
+    "prettier": "^1.19.1"
   }
 }
